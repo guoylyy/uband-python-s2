@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>Uband-木子李V</title>
+    
+    <link rel="stylesheet" href="/static/lib/weui/style/weui.css">
+    <link rel="stylesheet" href="/static/css/10509.css">
+</head>
+<body ontouchstart>
+    <!-- logo -->
+    <div class="pertop">
+        <div>
+            <a href="/"><img class="direct" src="/static/img/move12.png">
+        </div></a>
+        <img class="circle-img" style="margin: auto;padding: 20px" src={{data.icon}} alt="">
+        <div class="topbg">
+            <h4 class="p">{{data.name}}</h4>
+            <p class="p">{{data.desc}}</p>
+        </div> 
+    </div>
+    <!-- end of logo-->
+    <div class="weui-navbar" style="top: 202px;height: 40px;">
+
+    <div class="weui-navbar__item weui_bar__item_on">
+    <a href="page1"><p class="tab">自言自语</p></div></a>
+    
+    <div class="weui-navbar__item">
+    <a href="page2"><p class="tab">未来砖家</p></div></a>
+    
+    <div class="weui-navbar__item">
+    <a href="page3"><p class="tab active">私人癖好</p></div></a>
+    
+    <div class="weui-navbar__item">
+    <a href="page4"><p class="tab">欢迎勾搭</p></div></a>
+    
+    </div>
+    <div class="content">
+        <div class="details-intro">
+        {{data.page3 | safe}}
+        </div>
+
+    </div>     
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>DDD's Profile</title>
+        <base href="../static/" target="_blank">
+        <link rel="stylesheet" type="text/css" href="css/old.css"
+    </head>
+    <body>
+        <div id='head'>
+            <h1>{{data.name}}</h1>
+        </div>
+	    <div>
+	    	<br  />
+        </div>
+        <div id='content'>
+            <br/>
+            <img class='self' src="img/ddd.jpg" alt="ddd"/>
+            <h2>{{data.team}}</h2>
+            <h3>{{data.company}}</h3>
+            <ul class='intr'>
+                <li>{{data.content[0]}}</li> 
+                <li>{{data.content[1]}}</li>
+                <li>{{data.content[2]}}</li>
+                <li>{{data.content[3]}}</li>
+                <li>{{data.content[4]}}</li>
+                <li>{{data.content[5]}}</li>
+            </ul>
+        </div>
+    </body>
+</html>

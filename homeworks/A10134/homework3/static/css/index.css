@@ -1,0 +1,92 @@
+/*Top*/
+
+.Top{
+    /* background-color:#FF9999;    */
+    width:100%;
+    height:200px;
+    background-image:url("/static/img/background.png"); 
+    background-size:406px 100%;
+    padding-top:20px;
+}
+
+/*img-section*/
+.Top-img-bg{
+    width:100%;
+    height:90px;
+}
+
+.Top-icon{
+    width:68px;
+    height:68px;
+    display: block;
+    margin: 0 auto;
+    border-radius:50%;
+    margin-top:-16px;     
+}
+
+.Top-back{
+    padding-left:20px;
+    opacity: 0.5
+}
+
+/*desc-section*/
+.Top-desc-bg{
+    width:100%;
+    height:100px;
+    background-color:white;
+    opacity: 0.6;
+}
+
+.Top-name{
+    padding-top:6px;   
+    letter-spacing: 1px;
+    font-size:18px;
+    color:#FF9999; 
+     font-weight: bold; 
+    text-align:center;
+}
+
+.Top-desc{
+    padding-top:8px;
+    font-size:12px;    
+    color:#FF9999;         
+    text-align:center;
+}
+
+/*Bottom*/
+
+.person-panel{
+    margin:0 25px;
+    margin-top:20px;
+    border: solid #efefef 2px;    
+    border-radius:10px;
+}
+
+.person-name{
+    font-size:15px;
+}
+.person-desc{
+    font-size:13px;
+}
+
+.person-label{
+    width:50px;
+    height:17px;
+    background-color:#ff4060;
+    border-radius: 6px;
+    font-size: 10px;
+    color: white;
+    padding: 2px 4px;
+}
+
+.person-checkin{
+    width:70px;
+    margin-top:-40px;
+    text-align:right;
+    font-size:11px;
+    color:#828282;
+}
+
+.person-icon{
+    border-radius:50%;
+}

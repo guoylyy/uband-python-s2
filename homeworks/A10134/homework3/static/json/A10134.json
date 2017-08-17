@@ -1,0 +1,35 @@
+{
+    "name":"Gakki",
+    "occu" : "Actress;singer-songwriter;model;radio host ",
+    "career" : ["2005 took up a role in the TBS drama, Dragon Zakura","2008 won the Film prize at the 45th Golden Arrow Awards","2010-2012 the co-hosts for popular radio program Girls Locks."],
+	
+    "major":[
+        {
+            "article":"Secondary Parkinsonism",
+            "icon":"static/img/170807.jpg",
+            "url":",,,,,",
+            "created_at":"2017-8-7"
+        }
+    ],
+    "life":[
+        {
+            "article":"CJ小姐姐真好看",
+            "icon":"static/img/170801.jpg",
+            "content":"xxxxx",
+            "created_at":"2017-8-1"
+        }
+    ],
+    "contact":{
+        "email":"12345@163.com",
+        "comment":[
+            {
+                "title":"路过",
+                "user":"Alice",
+                "content":"xxxxx",
+                "created_at":"2017-8-3",
+                "reply":"感谢您的建议"				
+            }
+        ]
+    }				
+	
+}
