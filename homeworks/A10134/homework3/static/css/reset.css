@@ -1,0 +1,19 @@
+body { 
+	padding: 0; 
+	margin: 0; 
+	background: #9B8E79 url(../img/bg.jpg) no-repeat center top;
+	width: 100%; 
+	display: table; 
+}
+h1{
+	font-size:18px;
+	display: block;
+}
+h2{
+	font-size:13px;
+	display: block;
+}
+h3{
+	font-size:10px;
+	display: block;
+}

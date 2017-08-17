@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>{{data.name}}</title>
+    <link rel="stylesheet" href="/static/css/weui.css">
+    <link rel="stylesheet" href="/static/css/person.css">
+</head>
+<body ontouchstart>
+    <!-- Top -->
+    <div class="Top">
+        <div class="Top-img-bg">
+            <a href="/"><img class="Top-back" src="/static/img/back.png" alt=""></a>
+            <img class="Top-icon" src={{data.icon}} alt="">
+        </div>
+        <div class="Top-desc-bg">
+	    	<p class="Top-name">{{data.name}}</p>
+            <p class="Top-desc">{{data.desc}}</p>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <a href="/{{data.student_number}}/details" class = "navbar_item">
+            自言自语
+        </a>
+        <a href="/{{data.student_number}}/academy" class = "navbar_item">
+            未来砖家
+        </a>
+        <a href="/{{data.student_number}}/life" class = "navbar_item">
+            私人癖好
+        </a>
+        <div class="navbar_item navbar_item_on">
+            欢迎勾搭
+        </div>
+    </div>
+    <!-- end of Top-->
+    <div class="Bottom">
+        {{data.contact | safe}}
+	</div>
+</body>
+</html>

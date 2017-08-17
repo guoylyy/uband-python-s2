@@ -1,0 +1,38 @@
+.self{
+	display:block;
+    margin:0 auto;
+	width:100px; 
+	height:100px;
+	border-radius:50%;
+}
+#head{
+	background-color:#808A87;
+	filter:alpha(Opacity=80);-moz-opacity:0.8;opacity:0.8;
+	height:50px;
+	line-height: 50px;
+	
+}
+
+#content{
+	background-color:#FFFFFF;		
+	filter:alpha(Opacity=80);-moz-opacity:0.8;opacity:0.8;
+	width: 600px;
+	margin:0 auto;
+	padding:47px;
+	
+}
+
+.name{
+	text-align:center;
+	color: #FFFFFF;
+}
+.name_title{
+	text-align:center;
+}
+
+.brief_intr{
+	text-align:center;
+}
+.intr{
+	font-size:10px;
+}

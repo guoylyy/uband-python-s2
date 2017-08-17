@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home@{{data.name}}</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/app.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/reset.css">
+</head>
+<body>
+
+	<div id="head">
+		<h1 class="name">{{data.name}}</h1>
+	</div>
+	<div>
+		<br  />
+	</div>
+	<div id="content">
+		<br  />
+		<img class="self" src="../static/img/selfie.png" alt="鹂落的手绘哦~">
+		<h2 class="name_title">{{data.name}}</h2>
+		<h3 class="brief_intr">{{data.intr}}</h3>
+		<ul class='intr'>
+        {% for career in data.career %}
+            <li>{{ career }}</li>
+        {% endfor %}
+        </ul>
+	</div>
+	
+
+
+</body>
+</html>
+
