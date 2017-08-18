@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+<head>
+    <meta charset="UTF-8">
+    <meat name="viewport" content="width=device-width,initial-scale=1,
+    user-scalable=0" >
+    <title>华风简介</title>
+    <link rel="stylesheet" href="/static/lib/weui/style/weui.css">
+    <link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body ontouchstart>
+    <div class="details-head">      
+        <div class="details-head-img-page">  
+            <a href="/"> <div class="back-icon"></div> </a>
+            <img class="details-head-img" src="{{data.head_icon}}" >
+        </div>
+        <div class="details-head-desc-page">
+            <div class="details-head-name">
+                <b> {{data.name}}</b>
+            </div>
+            <div class="details-head-desc">
+                {{data.desc}}
+            </div>            
+        </div>
+    </div>  
+    <div >
+        <ul class="details-divide">
+           <li class="details-tab tab-active">
+                    <b> 个人简介 </b>
+            </li>
+            <a href="/details/{{data.student_number}}/materials"><li class="details-tab">
+                    <b> 我的友班 </b>
+            </li>
+            <a href="/details/{{data.student_number}}/friend"><li class="details-tab">
+                    <b> 笃友互动 </b>
+            </li>
+            <a href="/details/{{data.student_number}}/hotspot"><li class="details-tab">
+                   <b> 热点关注 </b>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="details-intro">
+            <div class="details-biaotai"><b><p>很高兴认识友班的同学！</p></b>
+            我叫华风，友班学号：A11200，现在从事科研及项目管理工作。
+
+            </div>
+          
+        </div>
+    </div>
+    <div class="weui-footer">
+        <p class="weui-footer_text">Copyright 2008-2016 weui.io </p>
+    </div>
+</body>
+</html>
+
+

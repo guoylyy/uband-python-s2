@@ -1,0 +1,153 @@
+.logo-page{
+    padding-bottom: 14px;
+    border-bottom:  solid 1px #EFEFEF;
+}
+
+.uband-logo{
+    width:80px;
+    height:33px;
+    display:block;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+.uband-user-item-img{
+	width:68px;
+	height:68px;
+	border-radius: 50%;
+}
+.uband-user-item{
+	margin-left:15px;
+	margin-right:15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border:solid #EFEFEF 1px;
+	border-radius: 10px; 
+}
+
+.uband-user-name{
+	font-size:15px;
+}
+
+.uband-user-desc{
+	font-size: 13px;
+}
+.uband-user-label{
+	width: 50px; 
+	height: 5px;
+	background-color: #FF4060;
+	border-radius: 8px;
+	font-size:10px;
+	color:#FFF;
+	padding:4px;
+}
+.uband-user-checkins{
+	width:150px;
+	margin-top: -40px;
+
+}
+.uband-user-checkins > p{
+	text-align:right;
+	font-size: 11px;
+	color: #828282;
+}
+
+
+.details-head{
+	width: 100%;
+	height: 210px;
+	background-image: url("/static/img/details-bg.png");
+	background-size:406px 100%;
+	padding-top: 20px;
+}
+.details-head-img-page{
+	width: 100%;
+	height: 100px;
+}
+.details-head-img{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin: 0 auto;
+	display: block;
+	margin-top: -16px;
+}
+.back-icon{
+	background-image: url("/static/img/back-icon.png");
+	height: 15px;
+	width:15px;
+	display:inline-block;
+	margin-left: 20px;
+}
+
+.details-head-desc-page{
+	width: 100%
+	height:100px;
+/*	background-color: #FFF;*/
+	opacity: 1
+}
+.details-head-name{
+	font-size: 25px;
+	text-align: center;
+	padding-top: 6px;
+}
+.details-head-desc{
+	font-size: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 8px;
+	text-align: center;
+}
+
+.details-divide{
+	border-bottom:solid 1px #EFEFEF;
+	height: 45px;
+
+}
+
+.details-tab{
+	color:#333;
+	font-size: 20px;
+	width: 25%;
+	float: left;
+	list-style: none;
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.tab-active{
+	color: #FF4060
+}
+.content{
+	width: 100%;
+}
+.details-intro{
+	min-height: 200px;
+	margin-left: 15px;
+	margin-right: 15px;
+	border-radius: 8px;
+	border:solid 1px #EFEFEF;
+	margin-top: 10px;
+	padding: 15px;
+
+}
+.details-biaotai{
+	font-size: 50px;
+	text-align: center;
+	color: #0066FF;
+}
+.details-intro > p {
+	font-size: 15px;
+	text-align: center;
+	
+}
+.details-intro img{
+	width: 100%;
+	display: block;
+}
+.weui.article{
+
+}
+.weui-footer{
+	margin-top: 10px;
+}

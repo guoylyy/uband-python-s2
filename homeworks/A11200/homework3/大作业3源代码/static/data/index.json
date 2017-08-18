@@ -1,0 +1,75 @@
+
+[
+	{
+	"student_number":"A11200",
+	"name":"华风",
+	"desc":"一个非IT行业的工作党，坐标 上海杨浦区",
+	"tags":["热点关注","笃友粉丝"],
+	"checkins":"118",
+	"head_icon":"http://himg.bdimg.com/sys/portrait/item/2922e9a38ee797b4e5bf831101.jpg",
+	"intro":"很高兴认识大家！",
+	"message_board":"欢迎大家留言，谢谢笃友的鼓励和支持！",
+	"materials":[
+		{
+			"title":"我的友班编程课堂",
+			"desc":"从课堂里面我学会了python和html编程语言",
+			"link":"https://web.gambition.cn/clazz/596590da09edb523500d8c44"
+		},
+		{
+			"title":"我的友班英音课堂",
+			"desc":"从课堂里面我学会了如何纠正英语发音，老师很厉害咯",
+			"link":"https://web.gambition.cn/clazz/578bf41da34131005b7413ae"
+		}
+
+	],
+	"hotspot":[
+		{
+			"title":"我的图像处理学习",
+			"desc":"一步步开始学习，还好学了Python",
+			"link":"https://www.ctolib.com/docs-Pillow-c-155657.html#"
+		},
+		{
+			"title":"爱看的凤凰军事",
+			"desc":"最新军情报告",
+			"link":"http://news.ifeng.com/mil/"
+		}
+	]
+	
+	},
+
+	{
+	"student_number":"A11201",
+	"name":"野奔",
+	"desc":"一个工作党，坐标北京",
+	"tags":["特别关注","笃友粉丝"],
+	"checkins":"123",
+	"head_icon":"http://thumbnail0.baidupcs.com/thumbnail/3025357575dc70a1e776db5b72c0ec3a?fid=570779598-250528-702876732925251&time=1502989200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-J0Dw%2B3OVevu6vdwzlOz1yD9u3hk%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5312136385567563270&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video"
+	},
+
+	{
+	"student_number":"A11202",
+	"name":"八月",
+	"desc":"一个工作党，坐标重庆",
+	"tags":["自在自由","笃友粉丝"],
+	"checkins":"234",
+	"head_icon":"http://thumbnail0.baidupcs.com/thumbnail/af35cbce1319ec089e457f165940b82c?fid=570779598-250528-111281055397983&time=1502989200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-l0zif6MdC1zH0PYoYj24BuDdHcQ%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5312173586909990024&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video"
+	},
+
+	{
+	"student_number":"A11203",
+	"name":"饱食终日",
+	"desc":"一个工作党，坐标福建",
+	"tags":["无限天地","笃友粉丝"],
+	"checkins":"789",
+	"head_icon":"http://thumbnail0.baidupcs.com/thumbnail/44252170924a72636c65d461dee9107a?fid=570779598-250528-430151117901757&time=1502989200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-IoSN%2BfuWQ%2Fg59fBH9RbWYaABzXY%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5312162712353925477&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video"
+	},
+
+	{
+	"student_number":"A11204",
+	"name":"新欢",
+	"desc":"一个工作党，坐标上海",
+	"tags":["工作学习","笃友粉丝"],
+	"checkins":"666",
+	"head_icon":"http://thumbnail0.baidupcs.com/thumbnail/45663cb4326f5269675e037d11849f4c?fid=570779598-250528-909642191309176&time=1502989200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-66vSYr%2B91aDftx%2F5wCuQmz7AXkg%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=5312150314087530295&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video"
+	}
+]
