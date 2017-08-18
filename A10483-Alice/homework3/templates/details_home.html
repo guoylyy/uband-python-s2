@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>学员主页</title>
+    
+    <link rel="stylesheet" href="/static/lib/weui/style/weui.css">
+    <link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body ontouchstart>
+    <div class="background-img">
+        <div class="head-page">
+        	<a href="/"><div class="back-icon"></div></a>
+        	<img class="user-icon" src="{{data.avatar}}">
+        </div>
+        <div class="head-desc">
+        	<div class="head-name">{{data.name}}</div>
+        	<div class="head-detail">{{data.desc}}</div>
+        </div>
+    </div>
+    <div class="tab-frame">
+    	<div class="tab-title tab-active">我与笃班</div>
+    	<a href = "/details/{{data.student_number}}/art"><div class="tab-title tab-inactive">书影音分享</div></a>
+    	<a href = "/details/{{data.student_number}}/eat"><div class="tab-title tab-inactive">吃吃喝喝</div></a>
+    	<a href = "/details/{{data.student_number}}/study"><div class="tab-title tab-inactive">学习心得分享</div></a>
+    </div>
+    <div class="tab-content">{{data.intro | safe}}</div>
+</body>
+</html>
