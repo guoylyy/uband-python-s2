@@ -177,7 +177,7 @@ def print_to_csvs(vocabulary_list, to_file_path, plan):
         print_to_csv(vocabulary_list[i], to_file_path + '/day' + str(i+1) + '.csv')
 
 def main():
-    # # day 1
+    #  day 1
     # #1. 读取文本
     # words = read_files(get_file_from_folder('data1'))
     # print '获取了未格式化的单词 %d 个' % (len(words))

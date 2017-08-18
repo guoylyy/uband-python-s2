@@ -73,7 +73,7 @@ def main():
     running = True
 
     while running:
-        pygame.time.delay(500)
+        pygame.time.delay(600)
         if snake_update():
             new_apple()
 
