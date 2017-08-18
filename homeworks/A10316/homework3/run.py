@@ -11,7 +11,6 @@ import os
 from flask import request,redirect
 
 app = Flask(__name__)
-# 加载配置文件
 app.config.from_object('config')
 
 # 初始化form
@@ -96,9 +95,6 @@ def project(student_number,number):
 			per_data=item
 			break
 	return render_template('essay.html',data=per_data,pro_data=project_data)
-
-
-
 
 
 if __name__ == '__main__':
