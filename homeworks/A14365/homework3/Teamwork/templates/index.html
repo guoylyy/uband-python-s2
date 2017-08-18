@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>Wind小组的朋友们</title>
+    
+    <link rel="stylesheet" href="/static/lib/weui/style/weui.css">
+    <link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body ontouchstart>
+    <!-- logo -->
+    <div class="logo-page">
+      <img class="wind-logo" src="static/img/wind.png">
+    </div>
+    <!-- end of the logo0-->
+    <div>
+      <div class="weui-panel__bd">
+              {% for item in data %}  
+                <a href="/details/{{item.student_number}}" class="weui-media-box weui-media-box_appmsg  uband-user-item">
+                    <div class="weui-media-box__hd">
+                        <img class="weui-media-box__thumb uband-user-item-img" src="{{item.head_icon}}" alt="">
+                    </div>
+                    <div class="weui-media-box__bd">
+                        <h4 class="weui-media-box__title uband-user-name">{{item.name}}</h4>
+                        <p class="weui-media-box__desc">{{item.description}}</p>
+                        <p>
+                           {% for label in item.tags %}
+                          <label class="uband-user-label" for="">{{label}}</label>
+                         
+                          {% endfor %} 
+                        </p>
+                    </div>
+                    <div class="uband-user-checkin">
+                    <p>打卡数：{{item.checkins}}
+                    </p>
+                    </div>
+                    </div>
+                </a>
+              {% endfor %} 
+            </div>
+    </div>
+
+</body>
+</html>

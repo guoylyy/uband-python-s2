@@ -1,0 +1,152 @@
+
+      .wind-logo{
+      width:80px;
+      height:33px;
+      margin: 0 auto;
+      display:block;
+      padding-top: 5px;
+       }
+     .logo-page{
+      padding-bottom: 14px;
+      border-bottom: solid 1px #EFEFEF;
+     }
+     .uband-user-item{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #efefef;
+    border-radius: 6px;
+     }
+     .uband-user-item-img{
+      width: 68px;
+      height: :68px;
+      border-radius: 50%;
+     }
+     .uband-user-label{
+      width:50px;
+      height:17px;
+      border-radius:8px;
+      background-color: #ff4060;
+      font-size: 10px;
+      color: #fff;
+      padding:3px;
+
+     }
+     .uband-user-name{
+      font-size: 15px;
+
+     }
+     .uband-user-checkin{
+      width: 70px;
+      margin-top: -40px;
+     }
+     .uband-user-checkin>p{
+      font-size: 12px;
+      text-align: right;
+      color:#828282;
+     }
+
+
+     /**details-page css*/
+     .details-head{
+      width: 100%;
+      height: 206px;
+      background-image: url(/static/img/details-background.png);
+      background-size: 406px 100%;
+      padding-top: 20px;
+     }
+     .details-head-img-page{
+      width: 100%;
+      height: 108px;
+
+     }
+
+     .details-head-img{
+      width: 68px;
+      height: 68px;
+      border-radius: 50%;
+     margin: 0 auto;
+     display: block;
+     margin-top: -16px;
+     }
+
+     .back-icon{
+      background-image: url("/static/img/back-icon.png");
+      width: 10px;
+      height: 16px;
+      display: inline-block;
+      margin-left: 15px;
+     }
+     .details-head-desc-page{
+        width: 100%;
+        height: 98px;
+        background-color: #fff;
+        opacity: 0.5;
+     }
+     .details-head-name{
+      font-size: 18px;
+      text-align: center;
+      padding-top: 6px;
+     }
+     .details-head-desc{
+      font-size: 12px;
+      padding-left: 15px;
+      padding-right: 15px;
+      text-align: center;
+      padding-top: 8px;
+     }
+      /**tab_bar css*/
+      .tab_bar{
+      
+      height:50px;
+      background-color:#fff;
+      border-bottom: solid 1px #EFEFEF;
+      margin-left: 20px;
+      
+
+      }
+      .tab_details{
+      width:25%;
+      height:50px;
+      font-size: 18px;
+      padding-top: 10px;
+      float: left;
+      list-style:none;
+      color: #333;
+      
+      }
+      
+      .tab-active{
+        color:#ff4060;
+      }
+
+      /**content css*/
+      .content{
+            width: 100%;
+      }
+      .introduction{
+            
+            min-height: 410px;
+            margin-top: 15px;
+            margin-left: 25px;
+            margin-right: 25px;
+            border: solid 1px #EFEFEF;
+            border-radius: 10px;
+            padding: 15px;
+            
+            
+      }
+      
+      .introduction p {
+    text-align: center;}
+          /**conments css*/
+      .comment_name{
+            font-size: 20px;
+      }
+      .comment_valuate{
+       list-style:none;
+       font-size: 14px;
+       color:red;
+       text-align: center;
+      }
