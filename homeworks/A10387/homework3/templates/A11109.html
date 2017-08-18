@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name = "viewport" content="width = device-width, initial-scale = 1, user-scalable = 0">
+	<title>{{data.name}}的主页</title>
+	<!-- 引用他人的 -->
+	<script src="../static/js/jquery-3.2.1.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+	<link href="../static/css/jquery-weui.min.css" rel="stylesheet">
+    <link href="../static/css/bootstrap.css" rel="stylesheet">
+	<!-- 引用自己的 -->
+    <script src="../static/js/app.js"></script>
+    <link href="../static/css/app.css" rel="stylesheet">
+
+
+</head>
+<body ontouchstart>
+<!-- 为顶端信息栏留空 -->
+	
+		<div class="nav"></div>
+
+<!-- 顶端两个icon -->
+		<div class="top-icons">
+			<div class="icon-back">
+				<a href="http://127.0.0.1:5000/"><button class="icon-top"><span class="glyphicon glyphicon-menu-left"></span></button></a>
+			</div>
+
+			<div class="icon-write">
+				<a href="#"><button class="icon-top"><span class="glyphicon glyphicon-pencil"></span></button></a>
+			</div>
+		</div>
+<!-- 简介部分 -->
+		<div class="self-info">
+			<div class="self-image">
+				<a href="{{data.infopage}}"><img src="{{data.headicon}}"></a>
+			</div>
+
+			<div class="short-intro">
+				 <span class="username">{{data.name}}</span>
+				 <span class="motto">{{data.motto}}</span>
+			</div>
+
+		</div>
+<!-- 关注收藏信息 -->
+		<div class="accountInfo">
+			<a href="#"><span>关注：{{data.follow}}</span></a>
+			<span>|</span>
+			<a href="#"><span>收藏：{{data.like}}</span></a>
+			<span>|</span>
+			<a href="#"><span>文章：{{data.works}}</span></a>
+		</div>
+<!-- tour页面 -->
+		<div class="pageTourDiv" style="display: block;">
+
+			<div class="tags">
+				<a href="#"><span class="tag tag-tour selected">Friends</span></a>
+				<a href="#"><span class="tag tag-music">Music</span></a>
+				<a href="#"><span class="tag tag-books">Books</span></a>
+				<a href="#"><span class="tag tag-articles">Articles</span></a>
+			</div>
+
+
+			<div class="tour">
+			{% for item in data.friends %}
+				<a href="{{item.homepage}}"><div class="tour-element" pid= "{{item.pid}}" show = "no">
+
+					<div class="follow-or-not-sm" style="display: none;" pid = "{{item.pid}}">
+						<button class="follow-or-not">
+							<span class="glyphicon glyphicon-plus"></span>
+						</button>
+					</div>
+
+					<div class="tour-info" pid = "{{item.pid}}">
+						<div class="head">
+							<img src="{{item.headicon}}">
+						</div>
+						<div class="her-info">
+							<span class="nickname">{{item.name}}</span>
+							<span class="motto">{{item.motto}}</span>
+							<div class="labels">
+							{% for label in item.labels %}
+								<a href="#"><span class="label">{{label}}</span></a>
+							{% endfor %}
+							</div>
+						</div>
+					</div>
+				</div></a>
+			{% endfor %}
+	
+			</div>
+		</div>
+
+		<div class="pageMusicDiv" style="display: none;">
+
+			<div class="tags">
+				<a href="#"><span class="tag tag-tour">Friends</span></a>
+				<a href="#"><span class="tag tag-music selected">Music</span></a>
+				<a href="#"><span class="tag tag-books">Books</span></a>
+				<a href="#"><span class="tag tag-articles">Articles</span></a>
+			</div>
+
+			<div class="music">
+			{% for item in data.music %}
+
+				<a href="{{item.recmmdpage}}">
+
+				<div class="music-element">
+
+					<div class="author">
+						<a data-container="body" data-toggle="popover" data-placement="top" data-content="{{author}}">
+							<span class="glyphicon glyphicon-info-sign"></span>
+						</a>
+					</div>
+
+					<div class="head">
+						<img src="{{item.album_cover}}">
+					</div>
+
+					<div class="recmd-info">
+						<span class="music-name">{{item.name}}</span>
+						<span class="performer">{{item.performer}}</span>
+						<div class="reasons">
+							<span class="reasonText">推荐理由:<span class="reason">{{item.reason}}</span></span>
+							
+						</div>
+					</div>
+
+					<div class="like-or-not-sm" style="display: none;">
+						<button class="like-or-not">
+							<span class="glyphicon glyphicon-heart"></span>
+						</button>
+					</div>
+
+				</div>
+
+				</a>
+			{% endfor %}
+
+			</div>
+
+		</div>
+
+<!-- 推荐书籍页面 -->
+		<div class="pageBooksDiv" style="display: none;">
+
+			<div class="tags">
+				<a href="#"><span class="tag tag-tour">Friends</span></a>
+				<a href="#"><span class="tag tag-music">Music</span></a>
+				<a href="#"><span class="tag tag-books selected">Books</span></a>
+				<a href="#"><span class="tag tag-articles">Articles</span></a>
+			</div>
+
+			<div class="books">
+			{% for item in data.books %}
+
+				<a href="{{item.recmmdpage}}">
+
+				<div class="books-element">
+
+					<div class="author">
+						<a data-container="body" data-toggle="popover" data-placement="top" data-content="作者">
+							<span class="glyphicon glyphicon-info-sign"></span>
+						</a>
+					</div>
+
+					<div class="head">
+						<img src="{{item.book_cover}}">
+					</div>
+
+					<div class="recmd-info">
+						<span class="book-name">{{item.name}}</span>
+						<span class="reason">{{item.reason | safe}}</span>
+					</div>
+
+					<div class="like-or-not-lg" style="display: none;">
+						<button class="like-or-not">
+							<span class="glyphicon glyphicon-heart"></span>
+						</button>
+					</div>
+
+				</div>
+
+				</a>
+
+			{% endfor %}
+			</div>
+
+		</div>
+
+<!-- 自己的文章页面 -->
+		<div class="pageArticlesDiv" style="display: none;">
+		
+			<div class="tags">
+				<a href="#"><span class="tag tag-tour">Friends</span></a>
+				<a href="#"><span class="tag tag-music">Music</span></a>
+				<a href="#"><span class="tag tag-books">Books</span></a>
+				<a href="#"><span class="tag tag-articles selected">Articles</span></a>
+			</div>
+
+			<div class="articles">
+			{% for item in data.articles %}
+
+				<a href="{{item.recmmdpage}}">
+
+				<div class="articles-element">
+				
+					<div class="author">
+						<a data-container="body" data-toggle="popover" data-placement="top" data-content="{{item.genre}}">
+							<span class="glyphicon glyphicon-info-sign"></span>
+						</a>
+					</div>
+
+					<div class="head">
+						<img src="{{item.book_cover}}">
+					</div>
+
+					<div class="recmd-info">
+						<span class="articles-name">{{item.name}}</span>
+						<span class="reason">
+							{{item.reason | safe}}
+						</span>
+					</div>
+
+					<div class="like-or-not-lg" style="display: none;">
+						<button class="like-or-not">
+							<span class="glyphicon glyphicon-heart"></span>
+						</button>
+					</div>
+
+				</div>
+
+				</a>
+
+			{% endfor %}
+			</div>
+
+		</div>
+
+		<div class="footer" style="display: none;">
+				<span>Coded by @kudari</span>
+		</div>
+
+</body>
+</html>

@@ -1,0 +1,570 @@
+[
+	{
+		"student_number":"A10387",
+		"name":"Kudari",
+		"motto":"Lazy, lazy dog.",
+		"follow":5,
+		"like":10,
+		"works":3,
+		"labels":["吃货","音乐","蛇精病","小萌文"],
+		"homepage":"http://127.0.0.1:5000/details/A10387",
+		"infopage":"http://127.0.0.1:5000/details/A10387_self_info",
+		"headicon":"../static/img/kudari.jpg",
+		"pid":1,
+		"intro":"",
+		"intro_updatetime":"8-7 21:29 来自 iPhone 6s Plus",
+		"friends":[
+
+			{
+				"name":"Kudari",
+				"motto":"Lazy, lazy dog.",
+				"labels":["吃货","音乐","蛇精病","小萌文"],
+				"homepage":"http://127.0.0.1:5000/details/A10387",
+				"headicon":"../static/img/kudari.jpg"
+			},
+
+			{
+				"name":"erhua",
+				"motto":"Crazy, lazy cat.",
+				"labels":["吃货","小说","拖延症"],
+				"headicon":"../static/img/erhua.jpg",
+				"homepage":"http://127.0.0.1:5000/details/A11109"
+			},
+
+			{
+				"student_number":"B20044",
+				"name":"奇葩姐",
+				"motto":"从你的全世界路过。",
+				"labels":["奇葩一枚","笑震四方"],
+				"headicon":"../static/img/c.jpg",
+				"homepage":"http://127.0.0.1:5000/details/B20044"
+			},
+
+			{
+				"name":"Durex",
+				"motto":"Something about her（20字以内）",
+				"labels":["我是谁","我在哪里"],
+				"headicon":"../static/img/d.jpg",
+				"homepage":"http://127.0.0.1:5000/details/A103"
+			}
+
+		],
+
+		"music":[
+			{
+				"name":"Hungarian Rhapsody No.2",
+				"performer":"辻井伸行",
+				"album_cover":"../static/img/music/nobu1.png",
+				"reason":"Toe-tapping and breath-taking",
+				"recmmdpage":""
+			},
+
+			{
+				"name":"Liszt--La Campanella",
+				"performer":"辻井伸行",
+				"album_cover":"../static/img/music/nobu2.png",
+				"reason":"大珠小珠落玉盘。",
+				"recmmdpage":""
+			},
+
+			{
+				"name":"Piano Sonata No.3, K.281",
+				"performer":"Vladmir Horowitz",
+				"album_cover":"../static/img/music/horowitz.png",
+				"reason":"A special interpretation.",
+				"recmmdpage":""
+			},
+
+			{
+				"name":"神様のカルテ",
+				"performer":"辻井伸行",
+				"album_cover":"../static/img/music/nobu3.png",
+				"reason":"就是好听哦。",
+				"recmmdpage":""
+			}
+
+		],
+
+		"books":[
+			{
+				"name":"《文学回忆录》",
+				"author":"木心",
+				"reason":"诚如木心所最早时设想的那样，这是他自己的“文学回忆录”，是一部“荒诞小说”，“在自己的身上，克服这个时代”。这也是木心留给世界的礼物。",
+				"book_cover":"../static/img/books/平凡的世界.jpg",
+				"recmmdpage":""
+			},
+
+			{
+				"name":"《平凡的世界》",
+				"author":"路遥",
+				"reason":"在展示普通小人物艰难生存境遇的同时，极力书写了他们克服重重困难的美好心灵与坚韧不拔的奋斗精神。这是一部能让人看完之后鼓起勇气面对不完美的小说。",
+				"book_cover":"../static/img/books/文学回忆录.jpg",
+				"recmmdpage":""
+			},
+			
+			{
+				"name":"《一只特立独行的猪》",
+				"author":"王小波",
+				"reason":"要做一只特立独行的猪：第一，自身要有能力，智勇双全，能够像猪兄那样；第二，需要一定的运气，不死在枪下而够“找到了一个空子...",
+				"book_cover":"../static/img/books/一只特立独行的猪.jpg",
+				"recmmdpage":""
+			}
+
+		],
+
+		"articles":[
+			{
+				"name":"《斜阳》",
+				"genre":"小说",
+				"reason":"我伪装成骗子，人们谣传说我是个骗子。我充阔...我故作冷淡，人人痛诉我的无情。而当我真的痛苦万分，不由呻吟时，人人却指责我无病呻吟。",
+				"book_cover":"../static/img/books/斜阳.jpg",
+				"recmmdpage":""
+			},
+
+			{
+				"name":"《黄山游记》",
+				"author":"游记",
+				"reason":"编不下去了。编不下去了。编不下去了。<br/>编不下去了。编不下去了。编不下去了。<br/>编不下去了。编不下去了。编不下去了。<br/>编不下去了。编不下去了。编不下去了。",
+				"book_cover":"../static/img/books/黄山游记.jpg",
+				"recmmdpage":""
+			},
+
+			{
+				"name":"《春花秋月》",
+				"author":"游记",
+				"reason":"春花秋月何时了，往事知多少。<br/>小楼昨夜又东风，故国不堪回首月明中。<br/>雕栏玉砌应犹在，只是朱颜改。<br/>问君能有几多愁？恰似一江春水向东流。<br/>",
+				"book_cover":"../static/img/books/春花秋月.jpg",
+				"recmmdpage":""
+			}
+
+		]
+	},
+
+	{
+		"student_number":"A11109",
+		"name":"erhua",
+		"motto":"Crazy, lazy cat.",
+		"follow":2,
+		"like":1,
+		"works":3,
+		"labels":["吃货","小说","拖延症"],
+		"headicon":"../static/img/erhua.jpg",
+		"homepage":"http://127.0.0.1:5000/details/A11109",
+		"infopage":"http://127.0.0.1:5000/details/A11109_self_info",
+		"pid":2,
+		"intro":"已放弃",
+		"intro_updatetime":"8-7 21:29 来自 iPhone 6s Plus",
+		"friends":[
+			{
+				"name":"Kudari",
+				"motto":"Lazy, lazy dog.",
+				"labels":["吃货","音乐","蛇精病","小萌文"],
+				"homepage":"http://127.0.0.1:5000/details/A10387",
+				"headicon":"../static/img/kudari.jpg"
+			},
+
+			{
+				"name":"erhua",
+				"motto":"Crazy, lazy cat.",
+				"labels":["吃货","小说","拖延症"],
+				"headicon":"../static/img/erhua.jpg",
+				"homepage":"http://127.0.0.1:5000/details/A11109"
+			},
+
+			{
+				"student_number":"B20044",
+				"name":"奇葩姐",
+				"motto":"从你的全世界路过。",
+				"labels":["奇葩一枚","笑震四方"],
+				"headicon":"../static/img/c.jpg",
+				"homepage":"http://127.0.0.1:5000/details/B20044"
+			},
+
+			{
+				"name":"Durex",
+				"motto":"Something about her（20字以内）",
+				"labels":["我是谁","我在哪里"],
+				"headicon":"../static/img/d.jpg",
+				"homepage":"http://127.0.0.1:5000/details/A103"
+			}
+		],
+
+		"music":[
+
+			{
+				"name":"Boom Clap",
+				"performer":"Charli XCX",
+				"album_cover":"../static/img/music/Boom_Clap.jpg",
+				"reason":"You're picture perfect blue.",
+				"recmmdpage":""
+			},
+
+			{
+				"name":"Remind You ",
+				"performer":"Christopher",
+				"album_cover":"../static/img/music/Marry_You.jpg",
+				"reason":"You are beautiful.",
+				"recmmdpage":""
+			},
+
+			{
+				"name":"See You Again",
+				"performer":"Wiz Khalifa & Charlie Puth",
+				"album_cover":"../static/img/music/Remind_You.jpg",
+				"reason":"It's been a long day without you.",
+				"recmmdpage":""
+			},
+
+			{
+				"name":"Marry You",
+				"performer":"Bruno Mars",
+				"album_cover":"../static/img/music/See_You_Again.jpg",
+				"reason":"If you are ready, like I am ready. ",
+				"recmmdpage":""
+			}
+
+		],
+
+		"books":[
+
+			{
+				"name":"《文学回忆录》",
+				"author":"木心",
+				"reason":"诚如木心所最早时设想的那样，这是他自己的“文学回忆录”，是一部“荒诞小说”，“在自己的身上，克服这个时代”。这也是木心留给世界的礼物，文学的福音书。",
+				"book_cover":"../static/img/books/平凡的世界.jpg",
+				"recmmdpage":""
+			},
+
+			{
+				"name":"《平凡的世界》",
+				"author":"路遥",
+				"reason":"这部小说在展示普通小人物艰难生存境遇的同时，极力书写了他们克服重重困难的美好心灵与坚韧不拔的奋斗精神。这是一部能让人看完之后鼓起勇气面对不完美生活的小说。",
+				"book_cover":"../static/img/books/文学回忆录.jpg",
+				"recmmdpage":""
+			},
+			
+			{
+				"name":"《一只特立独行的猪》",
+				"author":"王小波",
+				"reason":"要做一只特立独行的猪：第一，自身要有能力，智勇双全，能够像猪兄那样；第二，需要一定的运气，不死在枪下而够“找到了一个空子...",
+				"book_cover":"../static/img/books/一只特立独行的猪.jpg",
+				"recmmdpage":""
+			}
+		],
+
+		"articles":[
+
+			{
+				"name":"《黄山游记》",
+				"author":"游记",
+				"reason":"编不下去了。编不下去了。编不下去了。<br/>编不下去了。编不下去了。编不下去了。<br/>编不下去了。编不下去了。编不下去了。<br/>编不下去了。编不下去了。编不下去了。",
+				"book_cover":"../static/img/books/黄山游记.jpg",
+				"recmmdpage":""
+			},
+
+			{
+				"name":"《黄山游记》",
+				"author":"游记",
+				"reason":"编不下去了。编不下去了。编不下去了。<br/>编不下去了。编不下去了。编不下去了。<br/>编不下去了。编不下去了。编不下去了。<br/>编不下去了。编不下去了。编不下去了。",
+				"book_cover":"../static/img/books/黄山游记.jpg",
+				"recmmdpage":""
+			},
+
+			{
+				"name":"《黄山游记》",
+				"author":"游记",
+				"reason":"编不下去了。编不下去了。编不下去了。<br/>编不下去了。编不下去了。编不下去了。<br/>编不下去了。编不下去了。编不下去了。<br/>编不下去了。编不下去了。编不下去了。",
+				"book_cover":"../static/img/books/黄山游记.jpg",
+				"recmmdpage":""
+			}
+
+		]
+
+	},
+
+	{
+		"student_number":"B20044",
+		"name":"奇葩姐",
+		"motto":"从你的全世界路过。",
+		"follow":3,
+		"like":9,
+		"works":3,
+		"labels":["奇葩一枚","笑震四方"],
+		"headicon":"../static/img/c.jpg",
+		"homepage":"http://127.0.0.1:5000/details/B20044",
+		"infopage":"http://127.0.0.1:5000/details/B20044_self_info",
+		"pid":3,
+		"intro":"",
+		"intro_updatetime":"8-7 21:29 来自 iPhone 6s Plus",
+		"friends":[
+
+			{
+				"name":"Kudari",
+				"motto":"Lazy, lazy dog.",
+				"labels":["吃货","音乐","蛇精病","小萌文"],
+				"homepage":"http://127.0.0.1:5000/details/A10387",
+				"headicon":"../static/img/kudari.jpg"
+			},
+
+			{
+				"name":"erhua",
+				"motto":"Crazy, lazy cat.",
+				"labels":["吃货","小说","拖延症"],
+				"headicon":"../static/img/erhua.jpg",
+				"homepage":"http://127.0.0.1:5000/details/A11109"
+			},
+
+			{
+				"student_number":"B20044",
+				"name":"奇葩姐",
+				"labels":["奇葩一枚","笑震四方"],
+				"motto":"从你的全世界路过。",
+				"headicon":"../static/img/c.jpg",
+				"homepage":"http://127.0.0.1:5000/details/B20044"
+			},
+
+			{
+				"name":"Durex",
+				"motto":"Something about her（20字以内）",
+				"labels":["我是谁","我在哪里"],
+				"headicon":"../static/img/d.jpg",
+				"homepage":"http://127.0.0.1:5000/details/A103"
+			}
+
+		],
+
+		"music":[
+
+			{
+				"name":"陪你度过漫长岁月",
+				"performer":"陈奕迅",
+				"album_cover":"../static/img/music/eason.jpg",
+				"reason":"陪你把想念的酸拥抱成温暖。",
+				"recmmdpage":""
+			},
+
+			{
+				"name":"Passion",
+				"performer":"《第三种爱情》原声带",
+				"album_cover":"../static/img/music/thirdlove.jpg",
+				"reason":"糅合了爱而不能的伤感与绝望。",
+				"recmmdpage":""
+				
+			},
+
+			{
+				"name":"车站",
+				"performer":"李健",
+				"album_cover":"../static/img/music/lijian.jpg",
+				"reason":"悲伤而纯净，悠扬而空灵。"	,
+				"recmmdpage":""
+			},
+
+			{
+				"name":"神様のカルテ",
+				"performer":"辻井伸行",
+				"album_cover":"../static/img/music/nobu3.png",
+				"reason":"就是好听哦。",
+				"recmmdpage":""
+			}
+
+		],
+
+		"books":[
+
+			{
+				"name":"《天才在左，疯子在右》",
+				"author":"高铭",
+				"reason":"一直以为畅销书都没啥好看的。但这本书看完真的是颠覆我的三观，好几天都难以入眠。我再也不敢看第二次了。<br/>......",
+				"book_cover":"../static/img/books/crazy.jpg",
+				"recmmdpage":""
+			},
+
+			{
+				"name":"《理想国》",
+				"author":"柏拉图",
+				"reason":"越看越有意思的哲学书。<br/>......<br/>......<br/>......",
+				"book_cover":"../static/img/books/republic.jpg",
+				"recmmdpage":""
+			},
+			
+			{
+				"name":"《有味》",
+				"author":"汪涵",
+				"reason":"第一次看的时候惊叹作者的写作功底，文字细腻而又平实，细细品读甚是有味。<br/>......<br/>......",
+				"book_cover":"../static/img/books/taste.jpg",
+				"recmmdpage":""
+			}
+		],
+
+		"articles":[
+
+			{
+				"name":"《黄山游记》",
+				"author":"游记",
+				"reason":"编不下去了。编不下去了。编不下去了。<br/>编不下去了。编不下去了。编不下去了。<br/>编不下去了。编不下去了。编不下去了。<br/>编不下去了。编不下去了。编不下去了。",
+				"book_cover":"../static/img/books/黄山游记.jpg",
+				"recmmdpage":""
+			},
+
+			{
+				"name":"《黄山游记》",
+				"author":"游记",
+				"reason":"编不下去了。编不下去了。编不下去了。<br/>编不下去了。编不下去了。编不下去了。<br/>编不下去了。编不下去了。编不下去了。<br/>编不下去了。编不下去了。编不下去了。",
+				"book_cover":"../static/img/books/黄山游记.jpg",
+				"recmmdpage":""
+			},
+
+			{
+				"name":"《黄山游记》",
+				"author":"游记",
+				"reason":"编不下去了。编不下去了。编不下去了。<br/>编不下去了。编不下去了。编不下去了。<br/>编不下去了。编不下去了。编不下去了。<br/>编不下去了。编不下去了。编不下去了。",
+				"book_cover":"../static/img/books/黄山游记.jpg",
+				"recmmdpage":""
+			}
+		]
+	},
+
+	{
+		"student_number":"A103",
+		"name":"Durex",
+		"motto":"Something about her（20字以内）",
+		"follow":100,
+		"like":1,
+		"works":120,
+		"labels":["我是谁","我在哪里"],
+		"headicon":"../static/img/d.jpg",
+		"homepage":"http://127.0.0.1:5000/details/A103",
+		"infopage":"http://127.0.0.1:5000/details/A103_self_info",
+		"pid":4,
+		"intro":"",
+		"intro_updatetime":"8-7 21:29 来自 iPhone 6s Plus",
+		"friends":[
+
+			{
+				"name":"Kudari",
+				"motto":"Lazy, lazy dog.",
+				"labels":["吃货","音乐","蛇精病","小萌文"],
+				"homepage":"http://127.0.0.1:5000/details/A10387",
+				"headicon":"../static/img/kudari.jpg"
+			},
+
+			{
+				"name":"erhua",
+				"motto":"Crazy, lazy cat.",
+				"labels":["吃货","小说","拖延症"],
+				"headicon":"../static/img/erhua.jpg",
+				"homepage":"http://127.0.0.1:5000/details/A"
+			},
+
+			{
+				"student_number":"B20044",
+				"name":"奇葩姐",
+				"labels":["奇葩一枚","笑震四方"],
+				"motto":"从你的全世界路过。",
+				"headicon":"../static/img/c.jpg",
+				"homepage":"http://127.0.0.1:5000/details/B20044"
+			},
+
+			{
+				"name":"Durex",
+				"motto":"Something about her（20字以内）",
+				"labels":["我是谁","我在哪里"],
+				"headicon":"../static/img/d.jpg",
+				"homepage":"http://127.0.0.1:5000/details/"
+			}
+
+		],
+
+		"music":[
+
+			{
+				"name":"N/A",
+				"performer":"N/A",
+				"album_cover":"N/A",
+				"reason":"You're picture perfect blue.",
+				"recmmdpage":""
+			},
+
+			{
+				"name":"N/A",
+				"performer":"N/A",
+				"album_cover":"N/A",
+				"reason":"You're picture perfect blue",
+				"recmmdpage":""
+			},
+
+			{
+				"name":"N/A",
+				"performer":"N/A",
+				"album_cover":"N/A",
+				"reason":"You're picture perfect blue",
+				"recmmdpage":""
+			},
+
+			{
+				"name":"N/A",
+				"performer":"N/A",
+				"album_cover":"N/A",
+				"reason":"You're picture perfect blue",
+				"recmmdpage":""
+			}
+
+		],
+
+		"books":[
+
+			{
+				"name":"N/A",
+				"author":"N/A",
+				"reason":"诚如木心所最早时设想的那样，这是他自己的“文学回忆录”，是一部“荒诞小说”，“在自己的身上，克服这个时代”。这也是木心留给世界的礼物，文学的福音书。",
+				"book_cover":"N/A",
+				"recmmdpage":""
+			},
+
+			{
+				"name":"N/A",
+				"author":"N/A",
+				"reason":"诚如木心所最早时设想的那样，这是他自己的“文学回忆录”，是一部“荒诞小说”，“在自己的身上，克服这个时代”。这也是木心留给世界的礼物，文学的福音书。",
+				"book_cover":"N/A",
+				"recmmdpage":""
+			},
+			
+			{
+				"name":"N/A",
+				"author":"N/A",
+				"reason":"诚如木心所最早时设想的那样，这是他自己的“文学回忆录”，是一部“荒诞小说”，“在自己的身上，克服这个时代”。这也是木心留给世界的礼物，文学的福音书。",
+				"book_cover":"N/A",
+				"recmmdpage":""
+			}
+
+		],
+
+		"articles":[
+
+			{
+				"name":"N/A",
+				"genre":"N/A",
+				"reason":"我伪装成骗子，人们谣传说我是个骗子。我充阔，人人以为我是阔佬。我故作冷淡，人人痛诉我的无情。而当我真的痛苦万分，不由呻吟时，人人却指责我无病呻吟。",
+				"book_cover":"N/A",
+				"recmmdpage":""
+			},
+
+			{
+				"name":"N/A",
+				"author":"N/A",
+				"reason":"我伪装成骗子，人们谣传说我是个骗子。我充阔，人人以为我是阔佬。我故作冷淡，人人痛诉我的无情。而当我真的痛苦万分，不由呻吟时，人人却指责我无病呻吟。",
+				"book_cover":"N/A",
+				"recmmdpage":""
+			},
+
+			{
+				"name":"N/A",
+				"author":"N/A",
+				"reason":"我伪装成骗子，人们谣传说我是个骗子。我充阔，人人以为我是阔佬。我故作冷淡，人人痛诉我的无情。而当我真的痛苦万分，不由呻吟时，人人却指责我无病呻吟。",
+				"book_cover":"N/A",
+				"recmmdpage":""
+			}
+		]
+	}
+]

@@ -1,0 +1,27 @@
+$(function(){
+			$("span.tag-tour").click(function(){
+				$(".pageTourDiv").css("display","block");
+				$(".pageMusicDiv").css("display","none");
+				$(".pageBooksDiv").css("display","none");
+				$(".pageArticlesDiv").css("display","none");
+			});
+			$("span.tag-music").click(function(){
+				$(".pageTourDiv").css("display","none");
+				$(".pageMusicDiv").css("display","block");
+				$(".pageBooksDiv").css("display","none");
+				$(".pageArticlesDiv").css("display","none");
+			});
+			$("span.tag-books").click(function(){
+				$(".pageTourDiv").css("display","none");
+				$(".pageMusicDiv").css("display","none");
+				$(".pageBooksDiv").css("display","block");
+				$(".pageArticlesDiv").css("display","none");
+			});
+			$("span.tag-articles").click(function(){
+				$(".pageTourDiv").css("display","none");
+				$(".pageMusicDiv").css("display","none");
+				$(".pageBooksDiv").css("display","none");
+				$(".pageArticlesDiv").css("display","block");
+			});
+			$("[data-toggle='popover']").popover();
+		});
