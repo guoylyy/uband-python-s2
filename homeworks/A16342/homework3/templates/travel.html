@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>个人主页</title>
+<!--    <link rel="stylesheet" href="http://res.wx.qq.com/open/libs/weui/0.4.0/
+    weui.min.css"> -->
+    <link rel="stylesheet" href="/static/lib/weui/style/weui.css">
+    <link rel="stylesheet" href="/static/css/app2.css">
+</head>
+<body ontouchstart>
+    <div class="details-head">
+        <div class="details-head-img-page">
+            <a href="/"><div class="back-icon"></div></a>
+            <img class="details-head-img" src="{{data.head_icon}}" alt="">
+        </div>
+        <div class="details-head-desc-page">
+            <div class="details-head-name">
+                {{data.name}}
+            </div>
+            <div class="details-head-desc">
+                {{data.desc}}
+            </div>
+        </div>
+    </div>
+    <div >
+     <ul class="details-divide">
+         <a href="/details/{{data.student_number}}"><li class="details-tab">
+            个人简介    
+         </li></a>
+         <a href="/details/{{data.student_number}}/news"><li class="details-tab">
+            每日新鲜
+         </li></a>
+         <li class="details-tab tab-active">
+            旅行记忆
+         </li>
+         <a href="/details/{{data.student_number}}/reading"><li class="details-tab">
+            读书笔记
+         </li></a>
+      </ul>   
+    </div>
+
+    <div class="content">
+        <div class="details-intro">
+            <div>
+            {% for travel in data.travel %}
+                <div class="responsive">
+                    <div class="img">
+                        <a target="_blank" href="img_fjords.jpg">
+                        <img src="{{travel.travel_photo}}" alt="" width="300" height="200">
+                        </a>
+                        <div class="travel_desc">{{travel.travel_desc}}</div>
+                    </div>
+                </div>
+            {% endfor %}
+            <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="weui-footer">
+        <p class="weui-footer__text">Copyright © 2008-2016 weui.io</p>
+    </div>
+
+</body>
+</html>
+
