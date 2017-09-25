@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>Uband友班的朋友们</title>
+    
+    <link rel="stylesheet" href="/static/lib/weui/style/weui.css">
+    <link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body ontouchstart>
+    <!-- logo -->
+    <div class="details-head">
+        <div class="details-head-img-page">
+            <a href="/"><div class="back-icon"></div></a>
+            <img class="details-head-img" src="{{data.head_icon}}" alt="">
+        </div>
+        <div class="detail-head-desc-page">
+            <div class="details-head-name">
+                {{data.name}}
+            </div>
+            <div class="details-head-follow">
+                {{data.follow}}
+            </div>
+            <div class="details-head-desc">
+                {{data.signature}}
+            </div>
+        </div>
+    </div>
+    <div>
+        <ul class="details-divide">
+            <a href="/details/{{data.student_number}}"><li class="details-tab tab-active">
+                个人简介    
+            </li></a>
+            <a href="/details/{{data.student_number}}/favorite"><li class="details-tab">
+                我的最爱
+            </li></a>
+            <a href="/details/{{data.student_number}}/current"><li class="details-tab">
+                最近在忙
+            </li></a>
+            <a href="/details/{{data.student_number}}/thoughts"><li class="details-tab">
+                学习心得
+            </li></a>
+        </ul>   
+    </div>
+
+    <div class="content">
+        <div class="details-intro">
+            {{data.intro | safe}}
+        </div>
+    </div>
+    <div class="weui-footer">
+        <p class="weui-footer__text">Copyright © 2008-2016 weui.io</p>
+    </div>
+  
+</body>
+</html>
