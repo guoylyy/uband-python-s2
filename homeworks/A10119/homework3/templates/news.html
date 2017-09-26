@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>C4</title>
+        <link rel="stylesheet" href="/static/lib/weui/style/weui.css">
+        <link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body ontouchstart>
+    <div class="details-head">
+    	<div class="details-head-img-page">
+    		<a href="/"><div class="back-icon"></div></a> 
+    		<img  class="details-head-img" src="{{data.head}}"> 
+    	</div>
+    	<div class="details-head-desc-page">
+    		<div class="details-head-name">
+    			{{data.name}}
+    			
+    		</div>
+    		<div class="details-head-desc"> 
+    			{{data.desc}}
+    		</div>
+    	</div>
+    </div>
+    <div class="details-divide">
+        <vl>
+            <a href="/details/{{data.student_number}}">
+                <li class="details-tab">
+                个人简介                
+                </li></a>
+            <a href="/details/{{data.student_number}}/news">
+                <li class="details-tab tab-active">
+                每日新鲜
+                </li></a>
+            <a href="/details/{{data.student_number}}/readnote">
+                <li class="details-tab">
+                读书笔记
+                </li></a>
+            <a href="/details/{{data.student_number}}/travel">
+                <li class="details-tab">
+                旅行记忆
+                </li></a>
+        </vl>
+    </div>
+    <div class="content">
+        <div class="details-intro">
+            {% for item in data.news %}
+               <div class="news-back">
+                <h4>{{item.date}}</h1>
+                <p>{{item.daynews}}</p>
+
+               </div>
+            {% endfor %}
+        </div>            
+    </div>
+    <div class="weui-footer">
+        <p class="weui-footer__text">
+            Copyright © 2008-2016 weui.io
+        </p>
+    </div>
+</body>
+</html>
