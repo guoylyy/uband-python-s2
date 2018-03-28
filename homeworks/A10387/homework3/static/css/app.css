@@ -1,7 +1,10 @@
 body{
 	position: relative;
+	max-width: 640px;
 }
-
+@media screen and (max-width:414px){
+.music-element img, .books-element img, .articles-element img{ display:none; }
+}
 /*homepage*/
 .nav{
 	width: 100%;
@@ -39,8 +42,8 @@ button.icon-top{
 }
 
 .self-info .self-image img{
-	width: 100px;
-	height: 100px;
+	width: 95px;
+	height: 95px;
 	border-radius: 50%;
 	background-color: #8184B5;
 	border: 1px solid #565885;
@@ -102,17 +105,17 @@ button.icon-top{
 	text-align: center;
 	font-family: times;
 	font-size: 15.5px;
-	margin-left: 30px;
-	width: 354px;
+	margin: 0px auto;
+	max-width: 85.5072%;
 	height: 40px;
 }
 
 .tags span.tag{
 	display: inline-block;
-	width: 88.5px;
+	width: 21.3768%;
 	height: 40px;
 	color: #B896EF;
-	padding: 9px 0px;
+	padding: 9px;
 	margin: 0px -2px;
 }
 
@@ -129,9 +132,8 @@ button.icon-top{
 }
 
 .tour {
-	margin-left: 30px;
-	margin-right: 30px;
-	width: 354px;
+	margin: 0px auto;
+	max-width: 85.5072%;
 }
 
 .tour a{
@@ -139,9 +141,11 @@ button.icon-top{
 	-moz-opacity:0.8; 
 	-khtml-opacity: 0.8; 
 	opacity: 0.8;
+	color: #8184B5;
 }
 
 .tour a:hover{
+	color: #565885;
 	text-decoration: none;
 	filter:alpha(opacity=100); 
 	-moz-opacity:1; 
@@ -154,11 +158,24 @@ button.icon-top{
 	font-family: 宋体;
 	font-size: 300;
 	height: 90px;
-	width: 354px;
+	width: 85.5072%;
+	margin-left: 7.2464%;
+	min-width: 310px;
 	margin-bottom: 10px;
 	padding: 9px;
 	display: inline-block;
-	position: relative;
+}
+
+.tour-element .author a{
+	display: inline-block;
+	float: right;
+	color: #9599D6;
+	font-size: 11px;
+	padding: 0px;
+}
+
+.tour-element .author a:hover{
+	color: #77799C;
 }
 
 .tour-element .head{
@@ -185,6 +202,7 @@ button.icon-top{
 	font-weight: bold;
 	color: #77799C;
 	display: block;
+	line-height: 22px;
 }
 
 .tour-element .her-info span.motto{
@@ -192,11 +210,13 @@ button.icon-top{
 	font-weight: normal;
 	color: #9599D6;
 	display: block;
+	line-height: 18px;
 }
 
 .tour-element .her-info .labels{
 	display: block;
 	padding-top: 4px;
+	margin-left: -1px;
 }
 .tour-element .her-info .labels a:hover{
 	text-decoration: none;
@@ -217,10 +237,18 @@ button.icon-top{
 	border-radius: 20px;
 }
 
+.tour-element .follow{
+	padding: 2px 0px 0px 6px;
+}
+
+.tour-element .follow span{
+	font-size: 10px;
+	margin: 0px -2px;
+}
+
 .music {
-	margin-left: 30px;
-	margin-right: 30px;
-	width: 354px;
+	margin: 0px auto;
+	max-width: 85.5072%;
 }
 
 .music a{
@@ -242,12 +270,13 @@ button.icon-top{
 	background-color: #F9F5FF;
 	font-family: times;
 	font-weight: 300px;
-	width: 354px;
+	width: 85.5072%;
 	height: 90px;
 	margin-bottom: 10px;
-	padding: 7px 9px;
+	padding: 9px;
 	display: inline-block;
 	position: relative;	
+	margin-left: 7.2464%;
 }
 
 .music-element .author a{
@@ -271,13 +300,13 @@ button.icon-top{
 	height: 72px;
 	border-radius: 10px;
 	border: 1px solid #9599D6;
-	margin-top: -56px;
+	margin-top: -45px;
 }
 
 .music-element .recmd-info{
 	display: inline-block;
 	margin-left: 10px;
-	padding: 5px 0px;
+	padding: 0px 0px;
 }
 
 .music-element .recmd-info span.music-name{
@@ -286,6 +315,7 @@ button.icon-top{
 	color: #77799C;
 	display: block;
 	font-family: times;
+	line-height: 22px;
 }
 
 .music-element .recmd-info span.performer{
@@ -301,6 +331,7 @@ button.icon-top{
 	display: block;
 	margin-top: 5px;
 	font-family: 宋体;
+	line-height: 18px;
 }
 
 .music-element .recmd-info .reasons span.reasonText{
@@ -320,9 +351,8 @@ button.icon-top{
 }
 
 .books {
-	margin-left: 30px;
-	margin-right: 30px;
-	width: 354px;
+	margin: 0px auto;
+	max-width: 85.5072%;
 }
 
 .books a{
@@ -343,11 +373,12 @@ button.icon-top{
 .books .books-element{
 	background-color: #F9F5FF;
 	font-family: 宋体;
-	width: 354px;
+	width: 85.5072%;
 	height: 120px;
 	margin-bottom: 10px;
-	padding: 1px 9px;
+	padding: 9px;
 	display: inline-block;
+	margin-left: 7.2464%;
 }
 
 .books-element .author a{
@@ -364,9 +395,6 @@ button.icon-top{
 
 .books-element .head{
 	display: inline-block;
-	width: 88.5px;
-	height: 100px;
-	padding: 0px;
 }
 
 .books-element img{
@@ -374,25 +402,24 @@ button.icon-top{
 	height: 100px;
 	border-radius: 10px;
 	border: 1px solid #9599D6;
-	margin-top: -67px;
+	margin-top: -80px;
 }
 
 .books-element .recmd-info{
 	display: inline-block;
 	margin-left: 10px;
-	padding: 5px 0px
+	padding: 0px;
 	height: 100px;
 	width: 220px;
-	margin-top: 8px;
+	margin-top: 5px;
 }
 
 .books-element .recmd-info span.book-name{
 	font-size: 16px;
+	line-height: 22px;
 	font-weight: bold;
 	color: #77799C;
 	display: block;
-	font-family: times;
-	height: 20px;
 }
 
 
@@ -400,15 +427,15 @@ button.icon-top{
 	font-size: 11px;
 	font-weight: normal;
 	color: #9599D6;
-	margin-top: 4px;
+	margin-top: 1px;
 	display: inline-block;
-	height: 80px;
+	line-height: 18px;
+
 }
 
 .articles {
-	margin-left: 30px;
-	margin-right: 30px;
-	width: 354px;
+	margin: 0px auto;
+	max-width: 85.5072%;
 }
 
 .articles a{
@@ -429,11 +456,12 @@ button.icon-top{
 .articles .articles-element{
 	background-color: #F9F5FF;
 	font-family: 宋体;
-	width: 354px;
+	width: 85.5072%;
 	height: 120px;
 	margin-bottom: 10px;
-	padding: 1px 9px;
+	padding: 9px;
 	display: inline-block;
+	margin-left: 7.2464%;
 }
 
 .articles-element .author a{
@@ -457,16 +485,16 @@ button.icon-top{
 	height: 100px;
 	border-radius: 10px;
 	border: 1px solid #9599D6;
-	margin-top: -70px;
+	margin-top: -80px;
 }
 
 .articles-element .recmd-info{
 	display: inline-block;
 	margin-left: 10px;
-	padding: 5px 0px
+	padding: 0px;
 	height: 100px;
 	width: 220px;
-	margin-top: 8px;
+	margin-top: 5px;
 }
 
 .articles-element .recmd-info span.articles-name{
@@ -475,6 +503,7 @@ button.icon-top{
 	color: #77799C;
 	display: block;
 	font-family: 宋体;
+	line-height: 22px;
 }
 
 
@@ -482,8 +511,9 @@ button.icon-top{
 	font-size: 11px;
 	font-weight: normal;
 	color: #9599D6;
-	margin-top: 4px;
+	margin-top: 1px;
 	display: inline-block;
+	line-height: 18px;
 }
 
 .follow-or-not-sm{
@@ -528,9 +558,9 @@ button.icon-top{
 	padding: 20px;	
 	margin-top: 52px;
 	margin-bottom: 20px;
-	margin-left: 30px;
+	margin-left: 7.2464%;
 	border-bottom: 1px solid #F9F5FF;
-	width: 354px;
+	width: 85.5072%;
 }
 
 .headlines img{
@@ -555,6 +585,7 @@ button.icon-top{
 .articlePage{
 	padding: 0px;
 }
+
 .articlePage .nav button{
 	margin-left: 12px;
 	margin-top: 7px;
@@ -568,13 +599,13 @@ button.icon-top{
 	color:#F9F5FF
 }
 .articlePage .author-info{
-	width: 370px;
+	width: 89.37198%;
 	height: 90px;
 	background-color: #F9F5FF;
 	font-family: 宋体;
 	padding: 15px 10px;
 	border: 1px solid #8184B5;
-	margin-left: 22px;
+	margin-left: 5.314%;
 	margin-top: 15px;
 	border-radius: 10px;
 	position: relative;
@@ -621,16 +652,16 @@ button.icon-top{
 	color: #9599D6;
 }
 
-.articlePage .author-info .follow{
+.follow{
 	border: 1px solid #565885;
 	border-radius: 100px;
 	margin-top: 15px;
 	margin-right: 15px;
 	font-weight: 900;
 	font-family: 宋体;
-	font-size: 12px;
+	font-size: 11px;
 	float: right;
-	padding: 2px 5px;
+	padding: 1px 5px;
 	width: 50px;
 	height: 25px;
 	display: inline-block;
@@ -646,18 +677,18 @@ button.icon-top{
 	text-decoration: none;
 }
 
-.articlePage .author-info .follow span{
-	font-size: 11px;
-	margin: 1px;
+.follow span{
+	font-size: 10px;
+	margin: 2px 1px;
 }
 
 .articlePage .pageContent{
-	width: 370px;
+	width: 89.37198%;
 	background-color: #F9F5FF;
 	font-family: times;
 	padding: 15px 25px 0px 25px;
 	border: 1px solid #8184B5;
-	margin-left: 22px;
+	margin-left: 5.314%;
 	margin-top: 15px;
 	margin-bottom: 20px;
 	border-radius: 10px;
@@ -690,10 +721,9 @@ button.icon-top{
 
 .articlePage .anime img{
 	border: 1px solid #979797;
-	border-radius: 25px;
-	width: 85px;
-	height: 85px;
-	margin: 0px 6.5px;
+	border-radius: 25%;
+	width: 24%;
+	margin: 1% 1%;
 }
 
 .articlePage .anime img.word{
@@ -704,18 +734,16 @@ button.icon-top{
 	border: 1px solid #979797;
 }
 
-.anime .animeRow{
-	margin-bottom: 15px;
-}
-
 .articlePage .transition{
 	color: #565885;
 }
 
 .articlePage .transition img{
-	width: 300px;
-	margin-top: -10px;
+	width: 72.463768%;
+	margin-top: 0px;
 	display: block;
+	margin-left: 15%;
+	margin-bottom: -5px;
 }
 
 .articlePage .transition-down{
@@ -728,13 +756,13 @@ button.icon-top{
 .articlePage .music{
 	text-align: center;
 	display: block;
-	margin-left: -25px;
+
 }
 
 .articlePage .music img{
-	width: 85px;
-	height: 85px;
 	margin: 0px 6.5px;
+	width: 27%;
+	margin: 1% 1%;
 }
 
 .articlePage .music img.word{
@@ -743,10 +771,6 @@ button.icon-top{
 
 .articlePage .music img.pic{
 	border: 1px solid #565885;
-}
-
-.music .musicRow{
-	margin-bottom: 20px;
 }
 
 .articlePage .music .space{
@@ -771,7 +795,7 @@ button.icon-top{
 }
 
 .articlePage .contact-me{
-	margin: 20px 30px;
+	margin-top: 15px;
 	border-radius: 27px;
 	border: 1px solid #565885;
 	padding: 5px;

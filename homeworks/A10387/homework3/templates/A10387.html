@@ -72,6 +72,7 @@
 						<div class="head">
 							<img src="{{item.headicon}}">
 						</div>
+
 						<div class="her-info">
 							<span class="nickname">{{item.name}}</span>
 							<span class="motto">{{item.motto}}</span>
@@ -81,6 +82,13 @@
 							{% endfor %}
 							</div>
 						</div>
+
+						<a href="#">
+							<div class="follow">
+								<span class="glyphicon glyphicon-plus"></span>
+								关注
+							</div>
+						</a>
 					</div>
 
 					<div class="follow-or-not-sm" style="display: none;" pid = "{{item.pid}}">
@@ -175,8 +183,8 @@
 					</div>
 
 					<div class="recmd-info">
-						<span class="book-name">{{item.name}}</span>
-						<span class="reason">{{item.reason}}</span>
+						<span class="book-name">{{item.name | safe}}</span>
+						<span class="reason">{{item.reason | safe}}</span>
 					</div>
 
 					<div class="like-or-not-lg" style="display: none;">
