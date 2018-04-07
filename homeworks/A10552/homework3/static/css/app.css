@@ -1,0 +1,152 @@
+.logo-page
+{
+    padding-bottom: 14px;
+    border-bottom:  solid 1px #EFEFEF;
+}
+
+.uband-logo
+{
+    width: 80px;
+    height: 33px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+.uband-user-item
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid #EFEFEF 1px;
+    border-radius: 6px;
+}
+
+.uband-user-icon
+{
+    width:68px;
+    height:68px;
+    margin: 0 auto;
+    border-radius: 50%
+}
+
+.uband-desc
+{
+    margin: 0.18em .0em;
+}
+
+.uband-badge
+{
+    display: inline-block;
+    padding: .15em .4em;
+    min-width: 8px;
+    border-radius: 8px;
+    background-color: #FF4060;
+    color: #FFFFFF;
+    line-height: 1.2;
+    text-align: center;
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+.uband-user-checkin
+{
+    width: 80px;
+}
+
+.uband-user-checkin >p
+{
+    font-size: 11px;
+    text-align: right;
+    color: #828282;
+}
+
+
+/* details page */
+.background-img{
+    width:100%;
+    height:206px;
+    background-image: url('/static/img/background.jpg');
+}
+
+.head-page
+{
+    width:100%;
+    height:108px;
+}
+
+.back-icon
+{
+    width:16px;
+    height:16px;
+    background-image: url('/static/img/back.png');
+    display:inline-block;
+    background-size:100%;
+    margin-left:15px;
+    margin-top: 20px;
+}
+
+.user-icon
+{
+    width:68px;
+    height:68px;
+    margin: 0 auto;
+    border-radius: 50%;
+    display:block;
+    margin-top: -30px;
+}
+
+.head-desc{
+    width:100%;
+    height:98px;
+    background-color: #FFF;
+    opacity: 0.5
+}
+
+.head-name{
+    font-size:18px;
+    text-align: center;
+    padding-top:6px;
+}
+
+.head-detail{
+    font-size:12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:8px;
+}
+
+.tab-frame{
+    height:50px;
+    border-bottom: solid 1px #EFEFEF;
+}
+
+.tab-title{
+    float:left;
+    width:25%;
+    text-align: center;
+    font-size:12px;
+    height:50px; 
+    line-height:50px;
+}
+
+.tab-content{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:20px;
+    border:solid 1px #EFEFEF;
+    border-radius: 10px;
+    min-height:410px;
+    font-size:12px;
+}
+
+.tab-active{
+    color:#FF4060;
+}
+
+.tab-inactive{
+    color:#000;
+}

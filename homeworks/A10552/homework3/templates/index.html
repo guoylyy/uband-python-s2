@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>Uband的朋友们</title>
+    
+    <link rel="stylesheet" href="/static/lib/weui/style/weui.css">
+    <link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body ontouchstart>
+    <!-- logo -->
+    <div class="logo-page">
+        <img class="uband-logo" src="/static/img/uband-logo.png" alt="">
+    </div>
+    <!-- end of logo-->
+    <div>
+        <div class="weui-panel__bd">
+            {% for item in data %}
+                <a href="/details/{{item.student_number}}/home" class="weui-media-box weui-media-box_appmsg uband-user-item">
+                    <div class="weui-media-box__hd">
+                        <img class="weui-media-box__thumb uband-user-icon" src="{{item.avatar}}" alt="学员头像">
+                    </div>
+                    <div class="weui-media-box__bd">
+                        <h4 class="weui-media-box__title">{{item.name}}</h4>
+                        <p class="weui-media-box__desc uband-desc">{{item.desc}}</p>
+                        {% for badge in item.badge %}
+                            <p class="uband-badge">{{badge}}</p>
+                        {% endfor %}
+                    </div>
+                    <div class="uband-user-checkin">
+                        <p>打卡数：{{item.checkin}}</p>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+    </div>
+</body>
+</html>
