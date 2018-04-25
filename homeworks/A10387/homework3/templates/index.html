@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name = "viewport" content="width = device-width, initial-scale = 1, user-scalable = 0">
+	<title>用户列表</title>
+
+	<script src="../static/js/jquery-3.2.1.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <link href="../static/css/jquery-weui.min.css" rel="stylesheet">
+    <link href="../static/css/bootstrap.css" rel="stylesheet">
+    <link href="../static/css/app.css" rel="stylesheet">
+</head>
+<body>
+
+		<div class="nav">
+		
+		</div>
+
+		<div class="headlines">
+		<img src="../static/img/uband.png">
+		</div>
+
+		<div class="pageTourDiv" style="display: block;">
+
+			<div class="tour">
+			{% for item in data %}
+				<a href="{{item.homepage}}"><div class="tour-element" pid= "{{item.pid}}" show = "no" style="border: 1px solid #DEDBE3; border-radius: 10px;">
+
+					<div class="follow-or-not-sm" style="display: none;" pid = "{{item.pid}}">
+						<button class="follow-or-not">
+							<span class="glyphicon glyphicon-plus"></span>
+						</button>
+					</div>
+
+					<div class="tour-info" pid = "{{item.pid}}">
+						<div class="head">
+							<img src="{{item.headicon}}">
+						</div>
+						<div class="her-info">
+							<span class="nickname">{{item.name}}</span>
+							<span class="motto">{{item.motto}}</span>
+							<div class="labels">
+							{% for label in item.labels %}
+								<a href="#"><span class="label">{{label}}</span></a>
+							{% endfor %}
+							</div>
+						</div>
+					</div>
+				</div></a>
+			{% endfor %}
+	
+			</div>
+		</div>
+
+	<div class="footer">
+		<span>Coded by @kudari</span>
+	</div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name = "viewport" content="width = device-width, initial-scale = 1, user-scalable = 0">
+	<title>Kudari的主页</title>
+	<!-- 引用他人的 -->
+	<script src="../static/js/jquery-3.2.1.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+	<link href="../static/css/jquery-weui.min.css" rel="stylesheet">
+    <link href="../static/css/bootstrap.css" rel="stylesheet">
+	<!-- 引用自己的 -->
+    <script src="../static/js/app.js"></script>
+    <link href="../static/css/app.css" rel="stylesheet">
+</head>
+<body ontouchstart>
+<!-- 为顶端信息栏留空 -->
+<div class="articlePage">
+<!-- 为顶端信息栏留空 -->
+
+        <div class="nav">
+<!-- 顶端的后退icon -->
+            <a href="{{data.homepage}}">
+                <button class="icon-top">
+                    <span class="glyphicon glyphicon-menu-left"></span>
+                </button>
+            </a>
+        </div>
+
+<!-- 作者信息部分 -->
+        <div class="author-info">
+            <div class="info-part">
+                <div class="author">
+                    <a href="{{data.homepage}}"><img class="head-icon" src="{{data.headicon}}"></a>
+                </div>
+                <div class="details">
+                    <span class="name">{{data.name}}</span>
+                    <span class="updatetime">{{data.intro_updatetime}}</span>
+                </div>
+            </div>
+            <a href="#"><div class="follow">
+                <span class="glyphicon glyphicon-plus"></span>关注
+            </div></a>
+        </div>
+
+
+		<div class="pageContent">
+			{{data.intro | safe}}
+			<!-- 在@符号后面写你们自己的名字哦～ -->
+			<div class="footer">
+				<span>Coded by @kudari</span>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
