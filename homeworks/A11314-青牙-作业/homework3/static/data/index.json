@@ -1,0 +1,82 @@
+[{
+	"student_number":"A10119",
+	"name":"向晚",
+	"desc":"学营销的研究僧，喜爱编程的文科生，刚刚启程，好奇且求知~",
+	"tags":["爱挑战","求知欲"],
+	"checkin":10,
+	"head":"/static/img/me.jpg",
+    "intro":"<p style=\"text-align:center;\"><img src=\"http://arkie-public.images.arkie.cn/images/Template-6e49529b-8001-436c-bcb3-a4c2ff948318_01ba679f-2943-4365-82cc-dfaf96d83764.png\" style=\"width:auto;\"/></p><section class=\"domhelper\"><section class=\"_135editor\" data-tools=\"135编辑器\" style=\"border: 0px none; padding: 0px;\" data-color=\"rgb(190, 119, 99)\" data-custom=\"rgb(190, 119, 99)\"><section style=\"border-color: rgb(190, 119, 99); border-style: solid; border-width: 2px 2px 8px; margin: 10px auto; padding: 15px;\"><p style=\"text-align: justify;\"><span style=\"font-family: 宋体; font-size: 14px; color: #696969;\">临近毕业，日思夜想，觉着人生也许就是这样又恐惧又欢欣，你必须矢志不渝，才可以看到悬崖边的海。</span></p></section></section></section><p style=\"text-align: justify; font-size: 14px; color: rgb(105, 105, 105); line-height: 1.75em; margin-top: 0px;\">    从南昌5年，至广州2年，至江苏10年，至天津4年，而今再回广州读书，我的家乡在哪儿呢，漂泊跌宕，也许哪儿都是家，也许哪儿都不是家，如果你认识我，也许我们会有很多故事可以分享。</p><p style=\"text-align: justify; font-size: 14px; color: rgb(105, 105, 105); line-height: 1.75em; margin-top: 0px;\">    喜欢喝酒，尤其烈酒，但不贪杯。喜欢编程，以前最大的梦想是做一名程序猿哈哈。喜欢口译，觉得外交官的样子都酷酷的。喜欢手工艺，会做热缩片，可以画一个小版的“你们”。</p><p style=\"text-align: justify; font-size: 14px; color: rgb(105, 105, 105); margin-top: 0px;\">    喝茶，读书，也写字。人生至愿——干净，磊落，深情，善良。</p>",
+	"news":[
+			{"date":"2017-9-25","daynews":"向晚也完成作业啦～～"},
+			{"date":"2017-9-20","daynews":"今天去漂流，结果船漏水了，鞋也丢了TT，不得不捡了一只别人的鞋穿回来"}
+			],
+	"booknotes":"<p>efwe</p>",
+	"travel":[{"date":"2017-8-18",
+				"title":"sdfsa",
+			"link":""},
+				{"date":"2017-8-18",
+				"title":"sdfsa",
+			"link":""}]
+},
+{
+	"student_number":"A11314",
+	"name":"青牙",
+	"desc":"喜欢学习编程语言却从不想做开发的测试从业人员，爱好游山玩水吃吃喝喝，生活有书有茶自得其乐～",
+	"tags":["吸猫ing","学习ing"],
+	"checkin":9,
+	"head":"/static/img/Qingya.jpg",
+	"intro":"<section class=\"_135editor\" data-tools=\"135编辑器\" data-id=\"90648\" style=\"border: 0px none; padding: 0px; box-sizing: border-box;\"><section style=\"width: 100%; background-image: url(); height: auto; background-position: center center; background-repeat: no-repeat no-repeat;\" class=\"135bg\" data-width=\"100%\"><section data-role=\"circle\" style=\"border-top-left-radius: 100%; border-top-right-radius: 100%; border-bottom-right-radius: 100%; border-bottom-left-radius: 100%; overflow: hidden; margin: 0px auto; width: 100%; padding-bottom: 100%; height: 0px; background-image: url(http://qdn.135editor.com/3067623/2017/Fo-rZ7TqsDfM6mSy4OwN1bdfou3Q.png); background-size: cover; box-sizing: border-box; background-position: 50% 50%;\"></section></section><section style=\"padding: 0px 20px; box-sizing: border-box;\"><section style=\"width:100%; text-align:right; color:#4d4d4c; font-size:18px;\" class=\"135brush\" data-brushtype=\"text\" data-width=\"100%\"><strong>青牙</strong></section><section style=\"width:100%;\" data-width=\"100%\"><section style=\"width: 40px; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: rgb(113, 113, 113); box-sizing: border-box;\"></section></section><section style=\"width: 100%; font-size: 14px; padding: 10px 0px; box-sizing: border-box;\" class=\"135brush\" data-width=\"100%\"><p style=\"line-height: 1.75em; font-size: 15px; color: #3F3F3F;margin-bottom:15px;;text-align:center;\">毕业多年，四处游荡，梦想着信马由缰，江湖快意，但目前在帝都吸霾～</p><p style=\"line-height: 1.75em; font-size: 15px; color: rgb(63, 63, 63); margin-bottom: 15px;\">最近领养了一位主子，虽然它拉粑粑臭的要死，但还是会把它抱在怀里～～～</p></section></section></section>",
+	"news":[
+			{"date":"2017-9-25","daynews":"青牙完成作业啦～～"},
+			{"date":"2017-9-20","daynews":"强烈推荐《白夜追凶》，剧情紧凑，不拖沓，主线辅线相辅相成，演员演技在线，值得一追，每周三，等得心好焦急～～"}
+			],
+	"booknotes":"<section class=\"_135editor\" data-id=\"t36\" style=\"border: 0px none; padding: 0px; box-sizing: border-box;\"><section class=\"layout\" style=\"margin-right: auto; margin-left: auto; width: 60%;\"><section style=\"margin-top: 2em; padding-top: 0.5em; padding-bottom: 0.5em; font-size: 1em; line-height: 22.4px; border-style: solid none none; border-top-width: 1px; border-color: rgb(204, 204, 204) rgb(117, 117, 118) rgb(117, 117, 118); text-decoration: inherit; color: rgb(117, 117, 118); box-sizing: border-box;\"><section style=\"margin-top: -2.6em; text-align: center; line-height: 1.4;\"><section style=\"display: inline-block; border: 1px solid rgb(117, 117, 118); color: inherit; background-color: rgb(254, 254, 254); margin-top: 10px; margin-bottom: 10px; padding: 8px 12px; font-size: 16px; box-sizing: border-box;\"><p style=\"margin: 0px;\">读《罪与罚》——人性的光辉</p></section></section></section></section></section><section class=\"_135editor\" style=\"border: 0px none; padding: 0px; box-sizing: border-box;\"><section style=\"text-align:center;margin:0px auto;\" class=\"layout\"><section style=\"margin: 15px; border: 1px solid rgb(230, 230, 230); background-color: rgb(245, 245, 245); box-sizing: border-box;\"><p style=\"margin:15px; border-color: rgb(198, 198, 199);line-height:0em;\"><img src=\"/static/img/book_img.png\" style=\"width: 100%; margin: 0px; display: inline;\" _src=\"/static/img/book_img.png\"></p></section></section></section><p style=\"color: rgb(62, 62, 62); margin-bottom: 15px; margin-top: 15px; text-align: justify; font-size: 14px;\">《罪与罚》作者陀思妥耶夫斯基，讲述的故事发生在19世纪的俄国，整部书的基调都是阴郁的，肮脏不堪的酒馆街道，以及烂醉如泥走头无路的人。男主是一个因贫困而辍学的大学生，因贫困而与他人格格不入，因贫困最终走向犯罪。他杀了一个“刻薄凶狠的老太婆”，还杀死了正好撞破的这件凶杀案的老太婆的妹妹，男主有时觉得自己只是杀了一个吸血的“虱子”而已，而为社会真义流血牺牲是应该的，不会受到也不应受到法律制裁。</p><p style=\"color: rgb(62, 62, 62); margin-bottom: 15px; margin-top: 15px; text-align: justify; font-size: 14px;\">马尔梅拉多夫一个被辞退的小文官，一个爱慕自己妻子，疼爱自己女儿的人，可是他也同样是一个酒鬼，一个变卖妻子衣服，眼睁睁看着自己女儿拿黄色执照，三个幼儿嗷嗷待哺的人。他说：“人穷，倒还能保持与生俱来的高尚的情操，可是穷到一无所有，那就任何人在任何时候都办不到了，对于一个一贫如洗的人，甚至不能用棍子把他从人类社会中赶出去，而是应该用扫帚把他扫出去，从而使他斯文扫地，无地自容。这样做是天公地道的，因为，当我穷到一无所有的时候，我就头一个愿意使自己蒙受奇耻大辱。街头买醉，即由此而来。” 在他身上我们能体会到什么是走投无路，而这样的结局完全是由他一人造成的，只是他的妻子，一个受过教育的高傲的女人和他的纯善的女儿却要因此而遭受命运再次的打击。寡廉鲜耻的人一向如此，对什么都会慢慢习惯。</p><section class=\"_135editor\" data-id=\"t36\" style=\"border: 0px none; padding: 0px; box-sizing: border-box;\"><section class=\"layout\" style=\"margin-right: auto; margin-left: auto; width: 60%;\"><section style=\"margin-top: 2em; padding-top: 0.5em; padding-bottom: 0.5em; font-size: 1em; line-height: 22.4px; border-style: solid none none; border-top-width: 1px; border-color: rgb(204, 204, 204) rgb(117, 117, 118) rgb(117, 117, 118); text-decoration: inherit; color: rgb(117, 117, 118); box-sizing: border-box;\"><section style=\"margin-top: -2.6em; text-align: center; line-height: 1.4;\"><section style=\"display: inline-block; border: 1px solid rgb(117, 117, 118); color: inherit; background-color: rgb(254, 254, 254); margin-top: 10px; margin-bottom: 10px; padding: 8px 12px; font-size: 16px; box-sizing: border-box;\"><p style=\"margin: 0px;\">“倘若人并非都寡廉鲜耻怎么办？”</p></section></section></section></section></section><p style=\"color: rgb(62, 62, 62); margin-bottom: 15px; margin-top: 15px; text-align: justify; font-size: 14px;\">马尔梅拉多夫的妻子，文中多次描述的都是她暴躁的揪老公的头发，打骂孩子，但她毕业于一所贵族学校，曾经众所周知的是一个有教养，有学识的大家闺秀，还获得过金质勋章和奖状。索尼娅虽然并没有受过多少教育，可是她为了养活三个嗷嗷待哺的弟妹，养活酗酒的父亲，养活得了肺劳的继母，她不得已去做妓女，因为做其他的事情无法支撑这个家。而且是她鼓励男主自首并且陪她在西伯利亚服劳役。</p><p style=\"color: rgb(62, 62, 62); margin-bottom: 15px; margin-top: 15px; text-align: justify; font-size: 14px;\">男主把自己身上剩下的几个卢布给了第一次见面的可怜的索尼娅，救了被不轨的人跟踪的少女，也曾帮助过身患重病的同学，最终同样他忍受不了良心的煎熬而自首。</p><p style=\"color: rgb(62, 62, 62); margin-bottom: 15px; margin-top: 15px; text-align: justify; font-size: 14px;\">这是一个悲剧，是社会的悲剧，但在这悲剧中我们看到了被泥泞掩盖的人性的光辉，鲁迅说：凡是人的灵魂的伟大的审问者，同时也一定是伟大的犯人。审问者在堂上举劾着他的恶，犯人在阶下陈述他自己的善；审问者在灵魂中接发污秽，犯人在所揭发的污秽中阐明那埋藏的光辉。这样，就显示出灵魂的深。</p><p style=\"color: rgb(62, 62, 62); margin-bottom: 15px; margin-top: 15px; text-align: justify; font-size: 14px;\">每个社会都有弊端，理论上的乌托邦从来没有活过一个夜晚，现在这个社会，圣女，不是剩女，不是圣母婊，我该怎么说呢，圣女，如索尼娅，她可怜男主，愿意陪他在寒冷的西伯利亚赎罪，但是她坚信这个世界的好坏，坚信罪恶就需要接受处罚才能赎罪，坚信善良在泥泞之外还是能闪光。而现在这个社会，各种舆论，铺天盖地，事实已经被掩埋，我们有了很多键盘侠，舆论忽东忽西，你敢确认你点赞的那几慷慨激昂在下一秒不会被彻底推翻，越来越觉得我们都没有了话语权，虽然我们能说的地方很多，能看到更多信息了，但是谁敢说，自己知道的就定时完整真相呢？以前，还没有网络的时候，我们就知道人言可畏，为什么到现在我们都不会学着安静下来，先分清对错，学会辨别人言，也让世界多分和气。</p><p style=\"color: rgb(62, 62, 62); margin-bottom: 15px; margin-top: 15px; text-align: justify; font-size: 14px;\">我并不想呼唤和平，呼唤爱，升斗小民，你有多很多仇怨吗？个人觉得，人不能任人欺压，但也不能轻易欺压别人，无论你是儿童，青年，老人。为什么越来越多的老人让人觉得流氓变老了？为什么看到网上暴露的那些地铁“顶族”，都是看上去斯斯文文的男生？我觉得这些人也只是某中类型的一部分，被暴露出来了，做错事并不分你是什么样的人，老人还是有着美好前程的青年，你们都没有特权，错就是错，你们要承担责任，为了不让对的人心寒，为了不让徘徊在边缘的人有坚定的立场。</p><p style=\"color: rgb(62, 62, 62); margin-bottom: 15px; margin-top: 15px; text-align: justify; font-size: 14px;\">在看《罪与罚》时有一个人让我觉得害怕，男主妹妹的未婚夫，他只讲利好，只谈金钱，只跟对他有益处的人交往，还有一套自己荒诞的世界观，他觉得自己从贫民奋斗成一个成功的商人，他的未婚妻就要感恩，因为自己是她的救世主。就怕有人的恶渗入骨髓，平时可能觉得还是个和事佬，一旦做起坏事来没有底线。而他又有身份，又有钱，一般人都不敢说他半点，被他欺负了甚至只能忍气吞声，因为他还是个绝顶的演员。</p><p style=\"color: rgb(62, 62, 62); margin-bottom: 15px; margin-top: 15px; text-align: justify; font-size: 14px;\">人从直立行走之后真的有进化过吗？人的灵魂会因社会而改变吗？</p><p></p>",	"travel":"<p>efwe</p>",
+	"travel":[{"date":"2017-8-18",
+			"title":"青岛周末游",
+			"link":"http://chanyouji.com/trips/688486"},
+			{"date":"2017-8-18",
+			"title":"青海湖自驾行",
+			"link":"http://chanyouji.com/trips/678952"}]
+},
+
+{
+	"student_number":"B21052",
+	"name":"焦糖",
+	"desc":"喜欢理科，却选了文科；一直想做一名匠人，却在学笔译；喜欢吃米饭，却不知道哪里的好吃，纠结ing...",
+	"tags":["爱挑战","爱自由","不善交际"],
+	"checkin":11,
+	"head":"/static/img/Jiaotang.jpg",
+	"intro":"hihgkike",
+	"news":[
+		{"date":"2017-9-25","daynews":"焦糖完成作业啦～～"},
+		{"date":"2017-9-20","daynews":""}
+		],
+	"booknotes":"<p>efwe</p>",
+	"travel":[{"date":"2017-8-18",
+				"title":"sdfsa",
+				"link":""},
+				{"date":"2017-8-18",
+				"title":"sdfsa",
+				"link":""}]
+},
+{
+	"student_number":"A16342",
+	"name":"Apairery",
+	"desc":"这是一名很厉害的软文小妹，最近在思考如何撩男神",
+	"tags":["经济学渣","爱自由","尬聊"],
+	"checkin":11,
+	"head":"/static/img/Apairery.jpg",
+	"intro":"<p style=\"text-align: center;\">是只废鹅了<img src=\"/static/img/ap_intro.jpg\"/></p>",
+	"news":[
+			{"date":"2017-9-25","daynews":"Apairery完成作业啦～～"},
+			{"date":"2017-9-20","daynews":"男神又去驻唱了，好想去听QAQ"}
+			],	
+	"booknotes":"<p>efwe</p>",
+	"travel":[{"date":"2017-8-18",
+				"title":"十六铺码头",
+				"link":""},
+				{"date":"2017-8-18",
+				"title":"sdfsa",
+				"link":""}]	
+}
+]
