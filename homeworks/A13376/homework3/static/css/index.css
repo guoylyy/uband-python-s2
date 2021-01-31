@@ -1,0 +1,249 @@
+/*.head_img{
+ 		width:100px;
+ 		height:100px;
+ 		border-radius:50px
+	}
+
+	.name{
+		font-size: 18px
+	}
+	.des{
+		font-size: 13px
+	}*/
+.logo-page{
+    padding-bottom: 14px;
+    border-bottom:  solid 1px #EFEFEF;
+}
+
+.uband-logo{
+    width:80px;
+    height:33px;
+    display:block;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+.uband-user-item-img{
+	width:68px;
+	height: 68px;
+	border-radius: 50%
+}
+.ubnad-user-item{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border:solid #efefef 1px;
+	border-radius:6px;
+}
+.uband-user-name{
+	font-size: 15px;
+	font-weight: 600;
+
+}
+.uband-user-desc{
+	font-size: 13px;
+}
+.uband-user-lable{
+	width: 50px;
+	height: 17px;
+	background-color: #ff4060;
+	border-radius: 8px;
+	font-size: 10px;
+	color: #fff; 
+	padding: 3px;
+}
+
+.uband-user-checkins{
+	width: 70px;
+}
+.uband-user-checkins > p{
+	text-align: right;
+	font-size: 11px;
+	color: #828282;
+	margin-top: -37px; 
+}
+
+/*details page css*/
+
+.details-head{
+	width:100%;
+	height: 206px;
+	background-image: url('/static/img/detail-background.jpg');
+	background-size:406px 100%;
+}
+.details-head-img-page{
+	width: 100%;
+	height:100px;
+	padding-top: 25px;
+
+}
+.details-head-img{
+	width:68px;
+	height: 68px;
+	border-radius: 50%;
+	margin: 0 auto;
+	display:block;
+	margin-top: -16px;
+}
+.back-icon{
+	background-image: url(/static/img/back-icon.png);
+	background-size:100%;
+	height:16px;
+	width:9px;
+	display: inline-block;
+	margin-left: 15px;
+}
+.details-head-desc-page{
+	width:100%;
+	height: 98px;
+	background-color: #fff;
+	opacity: 0.5;
+
+}
+.details-head-name{
+	font-size: 18px;
+	text-align: center;
+	padding-top: 6px;
+}
+.details-head-desc{
+	font-size: 12px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 8px;
+}
+
+
+.details-tabs{
+	width:100%;
+	height: 35px;
+    border-bottom:  solid 1px #EFEFEF;
+}
+.details-tab{
+	width: 25%;
+	height: 35px;
+	float: left;
+	text-align: center;
+	margin-top: 3px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.tab-onclick{
+	color: red;
+
+}
+
+.details-info{
+	margin: 0 auto;
+    display: block;
+    width: 90%;
+    height: 200px;
+    /*border: solid 3px #EFEFEF;*/
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/*details-info-tab*/
+
+.details-info-tab{
+	display: none;
+}
+.info-show{
+	display: block;
+}
+.info-note-title{
+	font-family: cursive;
+    color: darkviolet;
+}
+.info-note-add{
+	width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+.info-text{
+	width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.info-button{
+	height: 20px;
+    width: 40px;
+    color: blueviolet;
+    background-color: lightcyan;
+    border-radius: 15px;
+    float: right;
+    margin-top: 3px;
+}
+
+.info-note{
+	width: 90%;
+	height:50px;
+	margin: 0 auto;
+    display: block;
+    margin-top: 25px;
+    /*background-color: ;*/
+    border: solid 3px #EFEFEF;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+.info-head{
+	width: 20%;
+	float: left;
+}
+.info-head-icon{
+	height:50px;
+	width: 50px;
+    border-radius: 50%;
+    margin:0 auto;
+    display: block;
+}
+.note-text{
+	height:60%;
+	width: 80%;
+	float: left;
+}
+.note-time{
+    height: 30%;
+    width: 35%;
+    float: right;
+}
+.info-essay{
+	width: 95%;
+	height:50px;
+	margin: 0 auto;
+    display: block;
+    margin-top: 5px;
+    /*background-color: ;*/
+    border: solid 3px #EFEFEF;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+.essay-info{
+	height:95%;
+	width: 80%;
+	float: left;
+}
+.essay-title{
+	font-size: 15px;
+    font-weight: 700;
+}
+.essay-info-per{
+	font-size: 9px;
+}
+.details-intro{
+
+    min-height: 200px;
+    border-radius: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: solid 1px #EFEFEF;
+    margin-top: 10px;
+    padding:15px;
+}
+.details-intro p {
+    text-align: center;
+}
+.details-intro img {
+    width:100%;
+    display:block;
+
+}
