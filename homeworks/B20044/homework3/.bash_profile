@@ -1,0 +1,1 @@
+export PYTHONPATH=/Users/kudari/workspaces/env1/lib/python2.7/site-packages

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name = "viewport" content="width = device-width, initial-scale = 1, user-scalable = 0">
+	<title>Kudari的主页</title>
+	<!-- 引用他人的 -->
+	<script src="../static/js/jquery-3.2.1.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+	<link href="../static/css/jquery-weui.min.css" rel="stylesheet">
+    <link href="../static/css/bootstrap.css" rel="stylesheet">
+	<!-- 引用自己的 -->
+    <script src="../static/js/app.js"></script>
+    <link href="../static/css/app.css" rel="stylesheet">
+</head>
+<body ontouchstart>
+	<div class="articlePage">
+<!-- 为顶端信息栏留空 -->
+
+		<div class="nav">
+<!-- 顶端的后退icon -->
+			<a href="{{data.homepage}}">
+				<button class="icon-top">
+					<span class="glyphicon glyphicon-menu-left"></span>
+				</button>
+			</a>
+		</div>
+
+<!-- 作者信息部分 -->
+		<div class="author-info">
+			<div class="info-part">
+				<div class="author">
+					<a href="{{data.homepage}}"><img class="head-icon" src="{{data.headicon}}"></a>
+				</div>
+				<div class="details">
+					<span class="name">{{data.name}}</span>
+					<span class="updatetime">{{data.intro_updatetime}}</span>
+				</div>
+			</div>
+			<a href="#"><div class="follow">
+				<span class="glyphicon glyphicon-plus"></span>关注
+			</div></a>
+		</div>
+<!-- 文章内容 -->
+		<div class="pageContent">
+		<!-- 文章标题 -->
+			<div class="title">
+				<span class="title">This is me</span>
+				<span class="subTitle">没时间做了，比较简陋，见谅哈，嘿嘿</span>
+			</div>
+		<!-- 动漫图像展示+I love字样 -->
+			<div class="anime">
+				<div class="animeRow">
+					<img class = "pic" src="../static/img/anime/1.jpg">
+					<img class = "pic" src="../static/img/anime/2.jpg">
+					<img class = "pic" src="../static/img/anime/3.jpg">
+				</div>
+				<div class="animeRow">
+					<img class = "word" src="../static/img/anime/7.png">
+					<img class = "pic" src="../static/img/anime/4.jpg">
+					<img class = "pic" src="../static/img/anime/5.jpg">
+				</div>
+				<div class="animeRow">
+					<img class = "word" src="../static/img/anime/8.png">
+					<img class = "word" src="../static/img/anime/9.png">
+					<img class = "pic" src="../static/img/anime/6.jpg">
+				</div>
+			</div>
+		<!-- 过度图标：音符 -->
+			<div class="transition">
+				<img src="../static/img/anime/music.png">
+			</div>
+		<!-- 音乐展示&读书&写作 -->
+			<div class="music">
+				<div class="musicRow">
+					<img class = "pic" src="../static/img/music/nobu1.png">
+					<img class = "pic" src="../static/img/music/nobu2.png">
+					<img class = "pic" src="../static/img/music/nobu3.png">
+				</div>
+				<div class="musicRow">
+					<img class = "pic" src="../static/img/music/horowitz.png">
+					<img class = "pic" src="../static/img/music/Boom_Clap.jpg">
+					<img class = "word" src="../static/img/music/1.png">
+				</div>
+				<div class="musicRow">
+					<img class = "pic" src="../static/img/music/Remind_You.jpg">
+					<img class = "word" src="../static/img/music/2.png">
+					<img class = "word" src="../static/img/music/1.png">
+				</div>
+				<div class="space"></div>
+				<div>
+					
+				<div class="musicRow">
+					<img class = "word" src="../static/img/music/3.png">
+					<img class = "word" src="../static/img/music/3.png">
+					<img class = "word" src="../static/img/music/4.png">
+				</div>
+			</div>
+		<!-- 最后的大字 -->
+			<div class="final-word">
+				<span class="also">Also</span>
+				<span class="my-fav">my favorite</span>
+			</div>
+		<!-- 过渡图标：向下标示 -->
+			<div class="transition-down">
+				<span class="glyphicon glyphicon-menu-down"></span>
+			</div>
+		<!-- 联系方式 -->
+			<div class="contact-me">
+				<span class="head"><span class="glyphicon glyphicon-grain dec"></span>Contact me<span class="glyphicon glyphicon-grain dec"></span></span> 
+
+				<span class="glyphicon glyphicon-earphone icon"></span>
+				<span class="address">86-138272840930</span>
+
+				<span class="glyphicon glyphicon-phone-alt icon"></span>
+				<span class="address">514-1239845</span>
+
+				<span class="glyphicon glyphicon-envelope icon"></span>
+				<span class="address">93492837124@163.com</span>
+				
+			</div>
+
+		</div>	
+
+
+	<!-- 在@符号后面写你们自己的名字哦～ -->
+		<div class="footer">
+			<span>Coded by @kudari</span>
+		</div>
+
+	</div>
+</body>
+
+</html>
