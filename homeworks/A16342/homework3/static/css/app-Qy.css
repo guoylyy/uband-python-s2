@@ -1,0 +1,23 @@
+.bo
+{
+	background-image:url(/static/img/background.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-attachment:fixed;
+	width:1200px;
+	height:800px;
+
+}
+.center
+{
+	text-align:center;
+}
+
+img.sty 
+{
+	width:100px;
+	height:100px; 
+	border-radius:50%; 
+	overflow:hidden;
+
+}

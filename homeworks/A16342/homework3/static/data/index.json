@@ -1,0 +1,94 @@
+[
+	{
+		"student_number":"A10119",
+		"name":"向晚",
+		"desc": "这是一个好奇心很强的人",
+		"tags": ["爱挑战","爱自由","不善交际"],
+		"checkins": 110,
+		"head_icon": "/static/img/me.jpg",
+		"daily_news":[
+		{
+			"name":"向晚",
+			"content":"今天去漂流，结果船漏水了",
+			"photo":"/static/img/piaoliu.jpg",
+			"created_at":"2017-09-18"
+		},
+		{
+			"name":"向晚",
+			"content":"我的鞋丢了TT，捡了一只别人的鞋穿回来",
+			"photo":"/static/img/xiezi.jpg",
+			"created_at":"2017-09-19"
+		}
+	],
+		"travel":[
+			{
+				"travel_photo":"http://www.runoob.com/wp-content/uploads/2016/04/img_fjords.jpg",
+				"travel_desc":"山河湖泊，这是青海"
+			},
+						{
+				"travel_photo":"http://www.runoob.com/wp-content/uploads/2016/04/img_forest.jpg",
+				"travel_desc":"峡谷幽静，这是丛林"
+			},
+						{
+				"travel_photo":"http://www.runoob.com/wp-content/uploads/2016/04/img_lights.jpg",
+				"travel_desc":"极光跳跃，这是阿拉斯加"
+			},
+						{
+				"travel_photo":"http://www.runoob.com/wp-content/uploads/2016/04/img_mountains.jpg",
+				"travel_desc":"雪山巍峨，这是西藏"
+			}
+		],
+		"intro":"<p style=\"text-align: center;\"><img src=\"http://arkie-public.images.arkie.cn/images/Template-6e49529b-8001-436c-bcb3-a4c2ff948318_01ba679f-2943-4365-82cc-dfaf96d83764.png\"/></p>"
+	},
+	{
+		"student_number":"A11314",
+		"name":"青牙",
+		"desc": "这是一个喜欢编程却从不想做开发的人",
+		"tags": ["爱吸猫","游山玩水","自得其乐"],
+		"checkins": 110,
+		"head_icon": "/static/img/Qingya.jpg"
+	},
+	{
+		"student_number":"A16342",
+		"name":"Apairery",
+		"desc":"这是一名很厉害的软文小妹，最近在思考如何撩男神",
+		"tags":["经济学渣","爱自由","尬聊"],
+		"checkins":414,
+		"head_icon":"/static/img/Apairery.jpg",
+		"daily_news":[
+			{
+				"name":"Apairery",
+				"content":"这个雪糕超级好吃！",
+				"photo":"/static/img/ice_cream.jpg",
+				"created_at":"2017-09-21"
+			},
+			{
+				"name":"Apairery",
+				"content":"男神又去驻唱了，好想去听QAQ",
+				"photo":"/static/img/music.jpg",
+				"created_at":"2017-09-23"
+			}
+		],
+		"travel":[
+			{
+				"travel_photo":"/static/img/16.jpg",
+				"travel_desc":"十六铺码头"
+			}
+		],
+		"reading":[
+			{
+				"reading_photo":"/static/img/1314.jpg",
+				"book_name":"一生一世美人骨"
+			}
+		],
+		"intro":"<p style=\"text-align: center;\">是只废鹅了<img src=\"/static/img/ap_intro.jpg\"/></p>"
+	},
+	{
+		"student_number":"B21052",
+		"name":"焦糖",
+		"desc":"这是一只吃货",
+		"tags":["爱挑战","爱自由","不善交际"],
+		"checkins":110,
+		"head_icon":"/static/img/Jiaotang.jpg"
+	}
+]
