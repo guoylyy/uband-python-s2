@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0"> <!-- 移动页面标识 -->
+    <title>木子李V</title>
+    <link rel="stylesheet" href="/static/css/weui.css">
+    <link rel="stylesheet" href="/static/css/index.css"> 
+</head>
+<body ontouchstart>
+    <!-- Top -->
+    <div class="Top">
+        <div class="Top-img-bg">
+            <img style="opacity: 0"="Top-back" src="/static/img/back.png" alt="">              
+            <img class="Top-icon" src="/static/img/team.jpg" alt="">
+        </div>
+        <div class="Top-desc-bg">
+	    	<p class="Top-name">木子李V</p>
+            <p class="Top-desc">小组介绍xxxxxxxxxxxxxxxxxxxx</p>
+        </div>
+    </div>
+    <!-- end of Top-->
+    <div class="Bottom">
+        {% for person in data %}
+        <div class="weui-panel__bd person-panel">
+                <a href="/{{person.student_number}}/details" class="weui-media-box weui-media-box_appmsg">
+                    <div class="weui-media-box__hd">
+                        <img class="weui-media-box__thumb person-icon" src={{person.icon}} alt="">
+                    </div>
+                    <div class="weui-media-box__bd">
+                        <h4 class="weui-media-box__title person-name">{{person.name}}</h4>
+                        <p class="weui-media-box__desc person-desc">{{person.desc}}</p>
+                        {% for label in person.labels %}
+                        <label class="person-label" for="">{{label}}</label>
+                        {% endfor %}
+                    </div>
+                    <div class="person-checkin">
+                        <p>点击量：{{person.checkin}}</p>
+                    </div>
+                </a>
+        </div>
+        {% endfor %}
+	</div>
+</body>
+</html>
