@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>Wind小组的朋友们</title>
+    
+    <link rel="stylesheet" href="/static/lib/weui/style/weui.css">
+    <link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body ontouchstart>
+    <!-- logo -->
+    <div class="details-head">
+        <div class="details-head-img-page">
+           <a href="/"><div class="back-icon"></div></a>
+            <img class="details-head-img" src="{{data.head_icon}}">
+        </div>
+        <div class="details-head-desc-page">
+            <div class="details-head-name">
+             {{data.name}}
+            </div>
+            <div class="details-head-desc">
+             {{data.description}}
+            </div>
+        </div>
+    </div>
+    <!-- tab-->
+    <div>
+        <ul  class="tab_bar">
+         <a href="/details/{{data.student_number}}"><li class="tab_details ">个人简介</li></a>
+         <a href="/details/{{data.student_number}}/my_uband"><li class="tab_details ">我的友班</li></a>
+         <a href="/details/{{data.student_number}}/comments"><li class="tab_details ">笃友留言</li></a>
+         <li class="tab_details tab-active">脑洞来了</li>
+        </ul>
+    </div>
+    <!--content-->
+    <div class="content">
+         <div class="introduction">
+          {{data.brainstorm | safe}}
+         
+
+          
+         </div>
+    </div>
+
+</body>
+</html>

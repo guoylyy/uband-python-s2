@@ -1,0 +1,40 @@
+
+{
+   "ID":"A14365",
+   "name":"野奔",
+   "description":"the man of twists and turns",
+   "tags":"xxxx",
+   
+   "resume":{
+       "basic":{
+            "phone_number":"1355xxxxxxx",
+            "qq":"63xxxxxxxx",
+            "birthday":"1990-07-09"
+        },
+        "history":[
+            {
+             "due":"2015-2017",
+             "content":"xxxx"
+            },
+            {
+              "due":"2012-2015",
+             "content":"xxxx"
+             },
+             {
+             "due":"2008-2012",
+             "content":"xxxx"
+             }
+        
+        ]
+   },
+   "timeline":[
+            {
+             "title":"2015-2017",
+             "content":"",
+             "creat_at":"2017-08-07 13:30"
+            }
+            
+    ]
+   
+   
+}
